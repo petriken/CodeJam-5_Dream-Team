@@ -5,9 +5,11 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "history": "^4.7.2",
+    "leaflet": "^1.4.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-leaflet": "^2.2.0",
     "react-redux": "^6.0.0",
     "react-redux-i18n": "^1.9.3",
     "react-router-dom": "^4.3.1",
