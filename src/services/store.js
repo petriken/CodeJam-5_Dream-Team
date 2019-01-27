@@ -76,6 +76,15 @@ const translationsObject = {
       start: 'Начать',
       devs: 'Разработчики сайта',
     },
+    directorsPage: {
+      search: {
+        label: 'Введите имя или город, в котором родился режиссер',
+        placeholder: 'Имя или город, в котором родился режиссер',
+        button: 'Поиск',
+      },
+      birthPlaceTitle: 'Место рождения',
+      buttonName: 'Перейти на страницу режиссера',
+    },
     team: {
       member1: {
         name: 'Дмитрий Кунец',
