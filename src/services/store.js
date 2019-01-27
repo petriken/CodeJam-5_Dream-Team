@@ -16,15 +16,11 @@ const translationsObject = {
   en: {
     pages: {
       home: 'Home',
-      producers: 'Producers',
-    },
-    application: {
-      title: 'Hello World',
-      text: 'This is a simple message',
+      producers: 'Directors',
     },
     intro: {
       title: 'Film directors of Belarus',
-      text: 'Welcome to the cultural portal, where you will find information about Belarusian film directors. Photos, facts from life, videos and more!',
+      text: 'Welcome to the culture portal, where you will find information about Belarusian film directors. Photos, facts from life, videos and more!',
       news: 'Director of the day',
       start: 'Start',
       devs: 'Developers of the website',
@@ -73,10 +69,6 @@ const translationsObject = {
     },
   },
   ru: {
-    application: {
-      title: 'Привет мир',
-      text: 'Это простое сообщение',
-    },
     intro: {
       title: 'Режиссёры кино Беларуси',
       text: 'Добро пожаловать на культурный портал, где вы найдете информацию о белорусских режиссёрах кино. Фотографии, факты из жизни, видео и многое другое!',
