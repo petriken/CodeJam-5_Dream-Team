@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Card,
   CardImg,
@@ -13,7 +14,6 @@ const ProducerCard = ({
   name,
   producerPhotoUrl,
   to,
-  tag,
   buttonName,
   briefInfo,
   birthPlace,
@@ -38,7 +38,7 @@ const ProducerCard = ({
         </CardText>
         <Button
           to={to}
-          tag={tag}
+          tag={Link}
           style={{ position: 'absolute', bottom: '20px' }}
         >
           {buttonName}
@@ -52,7 +52,6 @@ ProducerCard.propTypes = {
   name: PropTypes.string.isRequired,
   producerPhotoUrl: PropTypes.string.isRequired,
   to: PropTypes.string.isRequired,
-  tag: PropTypes.string.isRequired,
   buttonName: PropTypes.string.isRequired,
   briefInfo: PropTypes.string.isRequired,
   birthPlace: PropTypes.string.isRequired,
