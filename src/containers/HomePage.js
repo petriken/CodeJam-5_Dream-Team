@@ -48,8 +48,6 @@ class HomePage extends Component {
                   <Button
                     block
                     tag={Link}
-                    style={{ backgroundColor: '#007bff69' }}
-                    color="primary"
                     size="lg"
                     to="/producers"
                   >
@@ -86,7 +84,7 @@ class HomePage extends Component {
                 <Col
                   key={key}
                   className="mb-3"
-                  sm="6"
+                  sm="8"
                   md="6"
                   lg="4"
                 >
