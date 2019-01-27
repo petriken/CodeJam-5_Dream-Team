@@ -5,6 +5,7 @@ import {
   Button,
 } from 'reactstrap';
 import PropTypes from 'prop-types';
+import { Translate, I18n } from 'react-redux-i18n';
 
 class SearchDirectors extends Component {
   constructor() {
@@ -33,17 +34,17 @@ class SearchDirectors extends Component {
     return (
       <div>
         <Label for="SearchDirector">
-          Введите имя или город в котором родился режиссер:
+          <Translate value="directorsPage.search.label" />
         </Label>
         <Input
           value={this.state.value}
           onChange={this.handleChange}
           onKeyPress={this.handleKeyPress}
           id="SearchDirector"
-          placeholder="Producer's name or birth place "
+          placeholder={I18n.t('directorsPage.search.placeholder')}
         />
         <Button onClick={this.handleClick} className="mt-3">
-          Search
+          <Translate value="directorsPage.search.button" />
         </Button>
       </div>
     );

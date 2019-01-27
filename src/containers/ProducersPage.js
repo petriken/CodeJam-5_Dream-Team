@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Col, Row } from 'reactstrap';
+import { Translate } from 'react-redux-i18n';
 
 import ProducerCard from '../components/ProducerCard';
 import SearchProducers from '../components/SearchProducers';
@@ -18,7 +19,6 @@ class ProducersPage extends Component {
     this.state = {
       directors: authors,
     };
-    console.log(this.state.directors);
 
     this.handleSearch = this.handleSearch.bind(this);
   }
@@ -49,8 +49,8 @@ class ProducersPage extends Component {
                 birthPlace,
                 mainPhotoUrl,
               } = about;
-
               if (!name) return '';
+
               return (
                 <Col xs="12" sm="6" lg="4" key={directorKey} style={{ marginTop: '5%' }}>
                   <ProducerCard
@@ -59,9 +59,9 @@ class ProducersPage extends Component {
                     name={name}
                     briefInfo={briefInfo}
                     birthPlace={birthPlace}
-                    birthPlaceTitle="Место рождения:"
+                    birthPlaceTitle={<Translate value="directorsPage.birthPlaceTitle" />}
                     producerPhotoUrl={mainPhotoUrl}
-                    buttonName="Перейти на страницу режиссера"
+                    buttonName={<Translate value="directorsPage.buttonName" />}
                   />
                 </Col>
               );
