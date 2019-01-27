@@ -18,6 +18,7 @@ class ProducersPage extends Component {
     this.state = {
       directors: authors,
     };
+    console.log(this.state.directors);
 
     this.handleSearch = this.handleSearch.bind(this);
   }
@@ -39,12 +40,15 @@ class ProducersPage extends Component {
           {
             Object.entries(this.state.directors).map((director) => {
               const [directorKey, directorData] = director;
+              const { about } = directorData;
+              if (!about) return '';
+
               const {
                 name,
                 briefInfo,
                 birthPlace,
                 mainPhotoUrl,
-              } = directorData.about;
+              } = about;
 
               if (!name) return '';
               return (
