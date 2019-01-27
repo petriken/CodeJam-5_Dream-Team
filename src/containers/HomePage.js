@@ -24,6 +24,15 @@ class HomePage extends Component {
       translations,
     } = this.props;
 
+    function rand(object) {
+      const keys = Object.keys(object);
+      return object[keys[Math.floor(keys.length * Math.random())]];
+    }
+
+    const storeAuthors = translations.authors;
+    const randAuthor = rand(storeAuthors);
+    const randKey = Object.keys(storeAuthors).find(key => storeAuthors[key] === randAuthor);
+
     return (
       <div style={{ marginBottom: '20px' }}>
         <Row>
@@ -54,7 +63,16 @@ class HomePage extends Component {
             <h2>
               <Translate value="intro.news"/>
             </h2>
-            <ProducerCard name={this.props.name}/>
+            <ProducerCard
+              tag={Link}
+              to={`/producers/${randKey}`}
+              name={randAuthor.about.name}
+              briefInfo={randAuthor.about.briefInfo}
+              birthPlace={randAuthor.about.birthPlace}
+              birthPlaceTitle="Место рождения:"
+              producerPhotoUrl={randAuthor.about.mainPhotoUrl}
+              buttonName="Перейти на страницу режиссера"
+            />
           </Col>
           </Row>
           <h3 className="my-3">
@@ -115,7 +133,6 @@ class HomePage extends Component {
 
 HomePage.propTypes = {
   translations: PropTypes.object,
-  name: PropTypes.func.isRequired,
 };
 
 function mapStateToProps(state) {
