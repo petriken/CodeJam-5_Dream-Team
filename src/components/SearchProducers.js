@@ -44,6 +44,7 @@ class SearchDirectors extends Component {
             onChange={this.handleChange}
             onKeyPress={this.handleKeyPress}
             id="SearchDirector"
+            type="search"
             placeholder={I18n.t('directorsPage.search.placeholder')}
           />
         </Col>

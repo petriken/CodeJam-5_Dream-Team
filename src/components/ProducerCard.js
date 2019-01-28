@@ -19,33 +19,31 @@ const ProducerCard = ({
   birthPlace,
   birthPlaceTitle,
 }) => (
-  <div className="h-100">
-    <Card className="h-100">
-      <CardImg
-        top
-        height="300px"
-        style={{ objectFit: 'cover' }}
-        src={producerPhotoUrl}
-        alt={name}
-      />
-      <CardBody>
-        <CardTitle tag="h4">{name}</CardTitle>
-        <CardText>
-          <b>{birthPlaceTitle}:&nbsp;</b>
-          {birthPlace}
-        </CardText>
-        <CardText style={{ maxHeight: '100px', overflow: 'hidden' }}>
-          {briefInfo}
-        </CardText>
-      </CardBody>
-        <Button
-          to={to}
-          tag={Link}
-        >
-          {buttonName}
-        </Button>
-    </Card>
-  </div>
+  <Card className="h-100">
+    <CardImg
+      top
+      height="300px"
+      style={{ objectFit: 'cover' }}
+      src={producerPhotoUrl}
+      alt={name}
+    />
+    <CardBody>
+      <CardTitle tag="h4">{name}</CardTitle>
+      <CardText>
+        <b>{birthPlaceTitle}:&nbsp;</b>
+        {birthPlace}
+      </CardText>
+      <CardText style={{ maxHeight: '100px', overflow: 'hidden' }}>
+        {briefInfo}
+      </CardText>
+    </CardBody>
+      <Button
+        to={to}
+        tag={Link}
+      >
+        {buttonName}
+      </Button>
+  </Card>
 );
 
 ProducerCard.propTypes = {
