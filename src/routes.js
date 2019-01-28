@@ -20,6 +20,11 @@ const routes = [
     exact: true,
     component: ProducerBioPage,
   },
+  {
+    path: '*',
+    exact: true,
+    component: HomePage,
+  },
 ];
 
 export default routes;
