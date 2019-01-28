@@ -112,17 +112,33 @@ class HomePage extends Component {
                         {value.name}
                       </CardTitle>
                       <CardTitle>
-                        <span>Github:&nbsp;</span>
-                        <CardLink
-                          href={`https://github.com/${value.github}`}
-                          target="_blank"
-                        >
-                          {value.github}
-                        </CardLink>
+                      <Row>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <span>Github:&nbsp;</span>
+                          </Col>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <CardLink
+                            href={`https://github.com/${value.github}`}
+                            target="_blank"
+                            >
+                              {value.github}
+                            </CardLink>
+                          </Col>
+                      </Row>
                       </CardTitle>
                       <CardTitle>
-                        <span>Email:&nbsp;</span>
-                        <CardLink href={`mailto:${value.mail}`}>{value.mail}</CardLink>
+                        <Row>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <span>Email:&nbsp;</span>
+                          </Col>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <CardLink
+                              href={`mailto:${value.mail}`}
+                            >
+                              {value.mail}
+                            </CardLink>
+                          </Col>
+                        </Row>
                       </CardTitle>
                     </CardBody>
                   </Card>
