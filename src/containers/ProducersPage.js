@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Col, Row } from 'reactstrap';
-import { Translate } from 'react-redux-i18n';
+import { I18n } from 'react-redux-i18n';
 
 import ProducerCard from '../components/ProducerCard';
 import SearchProducers from '../components/SearchProducers';
@@ -59,9 +59,9 @@ class ProducersPage extends Component {
                     name={name}
                     briefInfo={briefInfo}
                     birthPlace={birthPlace}
-                    birthPlaceTitle={<Translate value="directorsPage.birthPlaceTitle" />}
+                    birthPlaceTitle={I18n.t('directorsPage.birthPlaceTitle')}
                     producerPhotoUrl={mainPhotoUrl}
-                    buttonName={<Translate value="directorsPage.buttonName" />}
+                    buttonName={I18n.t('directorsPage.buttonName')}
                   />
                 </Col>
               );
