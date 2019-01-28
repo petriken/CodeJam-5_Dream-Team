@@ -1,0 +1,735 @@
+{
+  "intro": {
+    "title": "针对通过白俄罗斯的电影",
+    "text": "欢迎来到文化门户网站在那里你会找到的信息，白俄罗斯的电影导演。 照片、事实的生活，以及更多！",
+    "news": "总干事的一天",
+    "start": "开始",
+    "devs": "开发者的网站",
+    "birthPlace": "出生地点",
+    "filmography": "大全",
+    "gallery": "照相馆",
+    "video": "观看视频"
+  },
+  "pages": {
+    "home": "主",
+    "producers": "董事"
+  },
+  "directorsPage": {
+    "search": {
+      "label": "输入的名称或城市，你在哪里出生的电影制片人",
+      "placeholder": "的名字或城市，你在哪里出生的电影制片人",
+      "button": "搜索"
+    },
+    "birthPlaceTitle": "出生地点",
+    "buttonName": "去页的导演"
+  },
+  "team": {
+    "member1": {
+      "name": "德米特里*梅德Kunets",
+      "github": "brateckrolikstudent",
+      "mail": "ibelieveinarabbit@gmail.com",
+      "img": "https://brateckrolikstudent.github.io/rsschool-codejam1-cv/images/avatar.jpg"
+    },
+    "member2": {
+      "name": "阿纳斯塔西娅*马祖尔",
+      "github": "AnastasiyaMazura",
+      "mail": "mazura.anastasiya@gmail.com",
+      "img": "https://anastasiyamazura.github.io/rsschool-codejam1-cv/img/Mazura_Anastasia.jpg"
+    },
+    "member3": {
+      "name": "丹尼斯Kovalenok",
+      "github": "dzianiskavalionak",
+      "mail": "nereidy4@gmail.com",
+      "img": "https://avatars2.githubusercontent.com/u/41955026?s=460&v=4"
+    },
+    "member4": {
+      "name": "彼得，Stasukevich",
+      "github": "petriken",
+      "mail": "petriken82@gmail.com",
+      "img": "https://cdn.discordapp.com/attachments/537907151985704962/538789462943989773/photo.png"
+    },
+    "member5": {
+      "name": "雅娜波罗",
+      "github": "yana-bashtyk",
+      "mail": "yankabashtyk16@gmail.com",
+      "img": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/27973479_1736578996406233_261896360789868839_n.jpg?_nc_cat=107&_nc_ht=scontent-frx5-1.xx&oh=d49a9311ec8afaf37cb07a9ccec51f96&oe=5CB57C44"
+    }
+  },
+  "authors": {
+    "author1": {
+      "about": {
+        "name": "尤里Khaschevatsky I。",
+        "briefInfo": "白俄罗斯和苏联的电影导演",
+        "birthPlace": "敖德萨",
+        "workPlaces": ["明斯克"],
+        "mainPhotoUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/3z0vyHp/1.jpg",
+        "alt": "尤里Khaschevatsky I。"
+      }, {
+        "src": "https://i.ibb.co/ZJStbc3/2.jpg",
+        "alt": "尤里Khaschevatsky I。"
+      }, {
+        "src": "https://i.ibb.co/wSMTbsH/3.jpg",
+        "alt": "尤里Khaschevatsky I。"
+      }, {
+        "src": "https://i.ibb.co/dPg6kmf/4.jpg",
+        "alt": "尤里Khaschevatsky I。"
+      }, {
+        "src": "https://i.ibb.co/dJZb6zS/5.jpg",
+        "alt": "尤里Khaschevatsky I。"
+      }, {
+        "src": "https://i.ibb.co/JzSXJyT/6.jpg",
+        "alt": "尤里Khaschevatsky I。"
+      }, {
+        "src": "https://i.ibb.co/HTtVxT8/7.jpg",
+        "alt": "尤里Khaschevatsky I。"
+      }],
+      "timeLine": [{
+        "year": 1947,
+        "info": ["出生日18时，1947年在敖德萨(苏联)"]
+      }, {
+        "year": 1973,
+        "info": ["毕业，从敖德萨技术研究所(敖德萨国立学院的食品技术)"]
+      }, {
+        "year": 1976,
+        "info": ["他开始在Batongbacal主任"]
+      }, {
+        "year": 1978,
+        "info": ["开始工作，在白俄罗斯电视"]
+      }, {
+        "year": 1981,
+        "info": ["Okonchil列宁格勒状态研究所的剧院、音乐和电影摄影(LGITMiK)"]
+      }, {
+        "year": 1985,
+        "info": ["开始工作，对\"白俄罗斯的电影\""]
+      }, {
+        "year": 1985,
+        "info": ["收到的奖的电影\"安静生活在深\":", "大奖赛的所有联合电影节在基辅"]
+      }, {
+        "year": 1987,
+        "info": ["收到的奖的影片\"在这里是翅膀\"", "大奖赛的所有联合电影节在明斯克"]
+      }, {
+        "year": 1987,
+        "info": ["收到的奖的电影\"新兵\"", "大奖赛的节日白俄罗斯的电影院"]
+      }, {
+        "year": 1989,
+        "info": ["开始工作，在电影工作室\"Belarusfilm\""]
+      }, {
+        "year": 1989,
+        "info": ["收到的奖的电影\"反索赔\":", "大奖赛\"金的半人马座\"国际电影节\"消息的人\"(圣彼得堡)"]
+      }, {
+        "year": 1996,
+        "info": ["对于电影\"绿洲\"获奖：", "陪审团奖国际电影节的生态影片(弗赖堡)"]
+      }, {
+        "year": 1998,
+        "info": ["对于电影\"俄罗斯的幸福\"接收奖励：", "该奖的\"奥斯坦金诺\"最佳影片和奖励，在国际电影节在叶卡捷琳堡", "\"金门奖\"(旧金山)"]
+      }, {
+        "year": 1998,
+        "info": ["对于电影\"一个普通的主席\"的接收奖励：", "萨哈罗夫奖俄罗斯作家联盟的\"四月\"(莫斯科)", "\"这部电影的世界\"的柏林国际电影节", "大奖赛人权观察(纽约)", "\"金门奖\"(旧金山)"]
+      }, {
+        "year": 2004,
+        "info": ["对于电影\"高加索的俘虏\"接收奖励：", "大奖赛的世界反对酷刑组织、国际纪录片电影节在日内瓦", "金奖国际电影节在贝尔格莱德"]
+      }, {
+        "year": 2016,
+        "info": ["参加议会选举白俄罗斯"]
+      }],
+      "filmography": [{
+        "year": 1985,
+        "titleMovie": "这个平静的生活在深度(纪录片)"
+      }, {
+        "year": 1986,
+        "titleMovie": "回到Khatyn(电影)"
+      }, {
+        "year": 1986,
+        "titleMovie": "看看你的房子(纪录片)"
+      }, {
+        "year": 1987,
+        "titleMovie": "固执的人(纪录片)"
+      }, {
+        "year": 1987,
+        "titleMovie": "这里是翅膀(纪录片)"
+      }, {
+        "year": 1987,
+        "titleMovie": "新兵(纪录片)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988年—旅(纪录片)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988年—硕士和学徒(纪录片)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988年的公式加速度(纪录片)"
+      }, {
+        "year": 1989,
+        "titleMovie": "1989年—反诉(纪录片)"
+      }, {
+        "year": 1989,
+        "titleMovie": "在天空上一轮(纪录片)"
+      }, {
+        "year": 1989,
+        "titleMovie": "谁不在今天"
+      }, {
+        "year": 1990,
+        "titleMovie": "一个中间人"
+      }, {
+        "year": 1990,
+        "titleMovie": "高速公路(纪录片)"
+      }, {
+        "year": 1991,
+        "titleMovie": "橙色背心(纪录片)"
+      }, {
+        "year": 1992,
+        "titleMovie": "俄罗斯的幸福(纪录片)"
+      }, {
+        "year": 1993,
+        "titleMovie": "激情的Marianne(纪录片)"
+      }, {
+        "year": 1994,
+        "titleMovie": "面包的以色列(纪录片)"
+      }, {
+        "year": 1996,
+        "titleMovie": "绿洲(纪录片)"
+      }, {
+        "year": 1996,
+        "titleMovie": "一个普通的主席(纪录片)"
+      }, {
+        "year": 1997,
+        "titleMovie": "回声沉默(纪录片)"
+      }, {
+        "year": 1998,
+        "titleMovie": "的时间，周恩来(纪录片)"
+      }, {
+        "year": 2000,
+        "titleMovie": "神的锤子和镰刀(纪录片)"
+      }, {
+        "year": 2002,
+        "titleMovie": "生活，爱(纪录片)"
+      }, {
+        "year": 2002,
+        "titleMovie": "高加索的囚犯(纪录片)"
+      }, {
+        "year": 2003,
+        "titleMovie": "神圣的医生"
+      }, {
+        "year": 2003,
+        "titleMovie": "阳光明媚小丑(纪录片)"
+      }, {
+        "year": 2007,
+        "titleMovie": "Kalinouski方(白俄罗斯。 该方纪录片)"
+      }, {
+        "year": 2007,
+        "titleMovie": "快进去"
+      }, {
+        "year": 2008,
+        "titleMovie": "在搜索的意第绪语(纪录片，一起用亚历山大Gorodnitsky)"
+      }, {
+        "year": 2010,
+        "titleMovie": "叶白质切除术(纪录片)"
+      }, {
+        "year": 2011,
+        "titleMovie": "普通选举(纪录片)"
+      }, {
+        "year": 2018,
+        "titleMovie": "这是一个疯了,疯了,疯狂的\"俄罗斯的世界\"(纪录片)"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 46.4737201,
+          "lng": 30.6891207
+        },
+        "markers": [{
+          "lat": 46.4737201,
+          "lng": 30.6891207,
+          "message": "出生"
+        }, {
+          "lat": 53.9128096,
+          "lng": 27.5660955
+        }]
+      },
+      "youtubeVideoId": "6kZXMx0fywQ"
+    },
+    "author2": {
+      "about": {
+        "name": "弗拉基米尔*弗拉基米罗维奇*Korsh-Sablin",
+        "briefInfo": "白俄罗斯苏维埃电影导演、演员的电影。 创始人之一的白俄罗斯的电影院。",
+        "birthPlace": "莫斯科",
+        "workPlaces": ["明斯克", "莫斯科"],
+        "mainPhotoUrl": "https://static.etvnet.com/shared/persons/person/000/004/093/korsh-sablin.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/CHZ6CtN/1.jpg",
+        "alt": "从电影的场景火年1939"
+      }, {
+        "src": "https://i.ibb.co/ZWkSLxw/2.jpg",
+        "alt": "从电影的场景火年1939"
+      }, {
+        "src": "https://i.ibb.co/gJtrxwN/3.jpg",
+        "alt": "弗拉基米尔*弗拉基米罗维奇*Korsh-Sablin"
+      }, {
+        "src": "https://i.ibb.co/r0Zytns/4.jpg",
+        "alt": "还是从电影在火中诞生于1929年/生在火焰"
+      }, {
+        "src": "https://i.ibb.co/swTx9zs/5.jpg",
+        "alt": "还是从电影的女儿的国家1937年的女儿的祖国"
+      }, {
+        "src": "https://i.ibb.co/B2q6BQc/6.jpg",
+        "alt": "还是从电影者的幸福1936/者的幸福"
+      }],
+      "timeLine": [{
+        "year": 1900,
+        "info": ["出生在16个(29)三月份在莫斯科"]
+      }, {
+        "year": 1917,
+        "info": ["结束戏剧学校", "开始创造性活动作为一个演员在剧院他的外祖父，费多尔Adamovich Korsch—Korsch剧院(根据家庭的传说，祖父留下深刻印象的成功，他的孙子，允许他结合这两名)。", "参与者在内战。"]
+      }, {
+        "year": 1923,
+        "info": ["开始的电影。"]
+      }, {
+        "year": 1925,
+        "info": ["助理助理导演和演员的电影工作室\"的国家\"(\"Sovkino\")在莫斯科"]
+      }, {
+        "year": 1926,
+        "info": ["他是一个演员和导演(1929年)电影工作室\"白俄罗斯苏维埃\"特别管理\"Belgoskino\"(后来的\"Belarusfilm\");拍喜剧、戏剧、传记的。"]
+      }, {
+        "year": "1945-1960, 1969—1974",
+        "info": ["Korsh-Sablin是艺术导演的电影工作室\"Belarusfilm的\"。"]
+      }, {
+        "year": 1950,
+        "info": ["冠军斯大林的奖的三度，对于电影\"君士坦丁Zaslonov\"(1949年)"]
+      }, {
+        "year": 1957,
+        "info": ["主席该组织主席团的联盟的摄影工作者的白俄罗斯苏维埃社会主义共和国的。"]
+      }, {
+        "year": "1962-1974",
+        "info": ["第一秘书的电影摄影师联盟，分别被冠以苏联的。", "联盟的成员摄影师的苏联。"]
+      }, {
+        "year": 1969,
+        "info": ["收到的题目的人的艺术家的苏联"]
+      }, {
+        "year": 1974,
+        "info": ["6月1974年，弗拉基米尔*弗拉基米罗维奇*Korsh-Sablin死亡。 他被埋在明斯克东部的墓地。"]
+      }],
+      "filmography": [{
+        "year": 1930,
+        "titleMovie": "在火中诞生的"
+      }, {
+        "year": 1933,
+        "titleMovie": "第一排"
+      }, {
+        "year": 1936,
+        "titleMovie": "求职者的幸福"
+      }, {
+        "year": 1939,
+        "titleMovie": "火灾年"
+      }, {
+        "year": 1940,
+        "titleMovie": "我的爱"
+      }, {
+        "year": 1949,
+        "titleMovie": "康斯坦丁Zaslonov(A Fajncimmer)"
+      }, {
+        "year": 1953,
+        "titleMovie": "云雀唱(N Sannikov)"
+      }, {
+        "year": 1955,
+        "titleMovie": "谁笑到最后"
+      }, {
+        "year": 1958,
+        "titleMovie": "红叶"
+      }, {
+        "year": 1960,
+        "titleMovie": "第一次测试 "
+      }, {
+        "year": 1967,
+        "titleMovie": "记住这一天"
+      }, {
+        "year": 1964,
+        "titleMovie": "莫斯科的-热那亚(合作与A.Speshneva和P.阿尔)"
+      }, {
+        "year": 1971,
+        "titleMovie": "崩溃的帝国"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 55.5807481,
+          "lng": 27.5560955
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 55.5807481,
+          "lng": 36.8251315,
+          "message": "出生"
+        }]
+      },
+      "youtubeVideoId": "k5YDsIC_nHY"
+    },
+    "author3": {
+      "about": {
+        "name": "Victor T.旅游",
+        "briefInfo": "白俄罗斯苏维埃电影导演、编剧和导师。",
+        "birthPlace": "莫吉廖夫",
+        "workPlaces": ["明斯克"],
+        "mainPhotoUrl": "http://m.kino-teatr.ru/acter/foto/sov/29477.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/TMMRzdD/1.jpg",
+        "alt": "Victor T.旅游"
+      }, {
+        "src": "https://i.ibb.co/gvBPzsf/2.jpg",
+        "alt": "Victor T.旅游"
+      }, {
+        "src": "https://i.ibb.co/51Zzgj3/3.jpg",
+        "alt": "在影片\"起始点\"。 用摄像尤里Marginem的。"
+      }, {
+        "src": "https://i.ibb.co/42S3FDR/4.jpg",
+        "alt": "在影片\"通过公墓的\"。"
+      }, {
+        "src": "https://i.ibb.co/FHt7CGX/5.jpg",
+        "alt": "在影片中，\"我来是从童年\"。"
+      }, {
+        "src": "https://i.ibb.co/P6q2fbB/6.jpg",
+        "alt": "白俄罗斯的经典。 维克托*图罗夫和麦芽啤酒Adamovich的。"
+      }, {
+        "src": "https://i.ibb.co/NnYWZyk/7.jpg",
+        "alt": "在影片\"沼泽里人\"。"
+      }],
+      "timeLine": [{
+        "year": 1936,
+        "info": ["维克托*图罗夫出生在莫吉廖夫(根据其他来源—在村里的Bryli莫吉廖夫地区的)。"]
+      }, {
+        "year": 1959,
+        "info": ["工作室主任Belarusfilm(明斯克).", "提交人的若干纪录片和故事的纪录片\"苏联白俄罗斯\"。"]
+      }, {
+        "year": 1961,
+        "info": ["毕业于指挥部电影学院(讲习班的A.多夫任科和M.E.Chiaureli)."]
+      }, {
+        "year": "1976—1981",
+        "info": ["1-St秘书联邦电影摄影师白俄罗斯苏维埃社会主义共和国的。", "院院士世界科学院斯拉夫的艺术。"]
+      }, {
+        "year": 1975,
+        "info": ["很荣幸技术工作人员的白俄罗斯苏维埃社会主义共和国"]
+      }, {
+        "year": 1984,
+        "info": ["对于电影\"沼泽里人\"荣获国家奖白俄罗斯苏维埃社会主义共和国"]
+      }, {
+        "year": 1986,
+        "info": ["人民艺术家的苏联"]
+      }, {
+        "year": "1989—1996",
+        "info": ["总干事的讲习班导致在白俄罗斯科学院艺术教授()."]
+      }, {
+        "year": 1994,
+        "info": ["在1994年电影\"通过公墓\"(1965年)成为一个百最好的世界大战的电影根据教科文组织。"]
+      }, {
+        "year": 1995,
+        "info": ["旅行被列入联合国教科文组织前50名的电影制作人的世界，其中包括一名誉委员会为庆祝100周年的摄影。"]
+      }, {
+        "year": 1996,
+        "info": ["维克托*图罗夫去世后，他被埋在明斯克东部的墓地。"]
+      }],
+      "filmography": [{
+        "year": 1965,
+        "titleMovie": "通过墓地"
+      }, {
+        "year": 1966,
+        "titleMovie": "我来自童年"
+      }, {
+        "year": 1967,
+        "titleMovie": "战争在屋顶"
+      }, {
+        "year": 1981,
+        "titleMovie": "Polesye纪事"
+      }, {
+        "year": 1981,
+        "titleMovie": "沼泽的人"
+      }, {
+        "year": 1982,
+        "titleMovie": "呼气的暴风雨"
+      }, {
+        "year": 1994,
+        "titleMovie": "绅士Zavalnia，或白俄罗斯在精彩的故事"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 53.8834808,
+          "lng": 30.2114948
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 53.8834808,
+          "lng": 30.2114948,
+          "message": "出生"
+        }]
+      },
+      "youtubeVideoId": "2juET6V3YpM"
+    },
+    "author4": {
+      "about": {
+        "name": "米哈伊尔*尼古拉耶维奇，Ptashuk",
+        "briefInfo": "苏联和白俄罗斯的电影导演。 ",
+        "birthPlace": "Feduke",
+        "workPlaces": ["明斯克", "莫斯科", "喀山"],
+        "mainPhotoUrl": "https://upload.wikimedia.org/wikipedia/ru/f/f7/M_Ptashuk.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/4YTnJD3/1.jpg",
+        "alt": "人民艺术家的共和国的导演迈克尔*Ptashuk。 一月1993年"
+      }, {
+        "src": "https://i.ibb.co/fnG1X59/2.jpg",
+        "alt": "工作室Belarusfilm的。 电影制片人迈克尔*Ptashuk(中心)上设置的电影签的不幸的Vasil贝科夫。 日1985年"
+      }, {
+        "src": "https://i.ibb.co/dLZxYBm/3.jpg",
+        "alt": "迈克尔Ptashuk期间拍摄的影片在1999年"
+      }, {
+        "src": "https://i.ibb.co/Srcmh8y/4.jpg",
+        "alt": "Ptashuk在首映式的她的电影'在八月份的44个'"
+      }, {
+        "src": "https://i.ibb.co/phHFb5b/5.jpg",
+        "alt": "Ptashuk，与他的妻子和女儿"
+      }, {
+        "src": "https://i.ibb.co/wrKFHdz/6.jpg",
+        "alt": "运营五尼古拉耶夫和总干事迈克尔Ptashuk期间拍摄的电影\"采取的痛苦\"。"
+      }, {
+        "src": "https://i.ibb.co/3ykv7Kr/7.jpg",
+        "alt": "演员叶夫根尼*米罗诺夫主任迈克尔*Ptashuk(中心)和波兰的贝娅塔的女演员Tyszkiewicz期间拍摄的影片\"在八月份44-去...\". 1995年"
+      }],
+      "timeLine": [{
+        "year": 1943,
+        "info": ["迈克尔出生28日，1943年在村里的Feduke,Liahovichi区，布列斯特地区。"]
+      }, {
+        "year": 1967,
+        "info": ["他于1967年在莫斯科剧院的学校名字命名BV休金(研讨会B.E.特*扎哈维正)."]
+      }, {
+        "year": 1974,
+        "info": ["曾在Belarusfilm", "他作为一个导演在戏院在莫斯科和喀山。"]
+      }, {
+        "year": 1982,
+        "info": ["很荣幸技术工作人员，分别被冠以苏联的。"]
+      }, {
+        "year": 1989,
+        "info": ["Ptashuk设立了白俄罗斯独立工作室在联邦电影摄影师，并且是它的艺术总监。", "他的工作已收到奖在国际节日白俄罗斯、西班牙、俄罗斯、捷克共和国、瑞典和南斯拉夫。"]
+      }, {
+        "year": 1990,
+        "info": ["人民艺术家，分别被冠以苏联的。"]
+      }, {
+        "year": 2002,
+        "info": ["Ptashuk中，死于一场车祸在莫斯科举行。", "前一天他飞在从好莱坞来莫斯科介绍的电影奖\"妮卡的\"。 他的画\"在八月份44-去...\"所有主要类别的奖项。", "他被埋在明斯克东部的墓地。"]
+      }],
+      "filmography": [{
+        "year": 1973,
+        "titleMovie": "关于维佳，玛莎和海军陆战队"
+      }, {
+        "year": 1975,
+        "titleMovie": "木摇摆"
+      }, {
+        "year": 1976,
+        "titleMovie": "时间选择了我们"
+      }, {
+        "year": 1980,
+        "titleMovie": "把你的痛苦"
+      }, {
+        "year": 1984,
+        "titleMovie": "黑色城堡Olshansky"
+      }, {
+        "year": 1986,
+        "titleMovie": "麻烦迹象"
+      }, {
+        "year": 1989,
+        "titleMovie": "我们的火车"
+      }, {
+        "year": 1992,
+        "titleMovie": "KOOPERATIV\"Politbyuro\"，或将长再见"
+      }, {
+        "year": 1995,
+        "titleMovie": "一个幻想"
+      }, {
+        "year": 2001,
+        "titleMovie": "在八月份的第44..."
+      }, {
+        "year": 2003,
+        "titleMovie": "在六月的41/燃烧的土地"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 53.0348791,
+          "lng": 26.0923454
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 53.0348791,
+          "lng": 26.0923454,
+          "message": "出生"
+        }, {
+          "lat": 55.5807481,
+          "lng": 36.8251315
+        }, {
+          "lat": 55.7954219,
+          "lng": 48.9332213
+        }]
+      },
+      "youtubeVideoId": "QM6Z8_yheZM"
+    },
+    "author5": {
+      "about": {
+        "name": "尤里*维克托罗维奇，塔里克",
+        "briefInfo": "苏联的电影导演和编剧。",
+        "birthPlace": "波洛茨克",
+        "workPlaces": ["明斯克", "莫斯科", "斯克", "赤塔", "佩茨克", "维尔纽斯", "列宁格勒", "圣彼得堡"],
+        "mainPhotoUrl": "https://upload.wikimedia.org/wikipedia/ru/9/98/Yury_tarich.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/Tww5jw9/1.jpg",
+        "alt": "尤里*维克托罗维奇，塔里克"
+      }, {
+        "src": "https://i.ibb.co/dB5KJwJ/2.jpg",
+        "alt": "还是从电影白俄罗斯短篇故事1943年"
+      }, {
+        "src": "https://i.ibb.co/4YTJzRY/3.jpg",
+        "alt": "还是从电影白俄罗斯短篇故事1943年"
+      }, {
+        "src": "https://i.ibb.co/6nhmjyW/4.jpg",
+        "alt": "还是从电影凶手走在路上1942年"
+      }, {
+        "src": "https://i.ibb.co/LJKLJ2D/5.jpg",
+        "alt": "还是从电影凶手走在路上1942年"
+      }, {
+        "src": "https://i.ibb.co/8Bxvv1r/6.jpg",
+        "alt": "还是从电影的森林故事1926年"
+      }],
+      "timeLine": [{
+        "year": 1885,
+        "info": ["尤里出生在12(24)日在波洛茨克"]
+      }, {
+        "year": "1903—1905",
+        "info": ["她曾就读于法学院的莫斯科大学"]
+      }, {
+        "year": 1905,
+        "info": ["参加在革命动乱在华沙被放逐到斯克省。"]
+      }, {
+        "year": 1907,
+        "info": ["他是一个演员在斯克，然后赤塔、利佩茨克州，坦波夫,维尔拉。"]
+      }, {
+        "year": 1918,
+        "info": ["演员和导演的一些领先的剧院在莫斯科(工作，包括与诉荷德)."]
+      }, {
+        "year": 1920,
+        "info": ["成为一个领导人员'院在克里姆林宫。"]
+      }, {
+        "year": 1923,
+        "info": ["工作在电影院：第一编剧，那么该主任。"]
+      }, {
+        "year": "середина 1920-х",
+        "info": ["在列宁格勒，包括谁是那里，那么工作室\"Belgoskino\";的创始人之一的白俄罗斯的摄影。"]
+      }, {
+        "year": 1926,
+        "info": ["把第白俄罗斯的电影\"森林的故事\"(小说M.胡萝卜的)。"]
+      }, {
+        "year": 1935,
+        "info": ["很荣幸技术工人的俄罗斯苏维埃联邦社会主义共"]
+      }, {
+        "year": "1943—1945",
+        "info": ["领导工作室\"，Mongolkino的\"。 后来在工作室\"soyuzdetfilm\",\"Belarusfilm\""]
+      }],
+      "filmography": [{
+        "year": 1925,
+        "titleMovie": "Moroka"
+      }, {
+        "year": 1925,
+        "titleMovie": "第一灯"
+      }, {
+        "year": 1926,
+        "titleMovie": "翅膀的奴隶"
+      }, {
+        "year": 1926,
+        "titleMovie": "布拉特-巴特"
+      }, {
+        "year": 1926,
+        "titleMovie": "森林的故事"
+      }, {
+        "year": 1928,
+        "titleMovie": "他们自己和他人"
+      }, {
+        "year": 1928,
+        "titleMovie": "毂"
+      }, {
+        "year": 1928,
+        "titleMovie": "上尉的女儿"
+      }, {
+        "year": 1929,
+        "titleMovie": "直到明天"
+      }, {
+        "year": 1930,
+        "titleMovie": "仇恨(第二名字—\"黑色的血液\")"
+      }, {
+        "year": 1930,
+        "titleMovie": "在两个工厂"
+      }, {
+        "year": 1930,
+        "titleMovie": "Osinstall"
+      }, {
+        "year": 1930,
+        "titleMovie": "政变"
+      }, {
+        "year": 1931,
+        "titleMovie": "诗名称的解放"
+      }, {
+        "year": 1932,
+        "titleMovie": "逃犯"
+      }, {
+        "year": 1932,
+        "titleMovie": "高度88,5"
+      }, {
+        "year": 1935,
+        "titleMovie": "船舶的方式"
+      }, {
+        "year": 1938,
+        "titleMovie": "第十一月"
+      }, {
+        "year": 1940,
+        "titleMovie": "天堂"
+      }, {
+        "year": 1942,
+        "titleMovie": "白俄罗斯短篇故事"
+      }, {
+        "year": 1942,
+        "titleMovie": "凶手走在路上"
+      }, {
+        "year": 1945,
+        "titleMovie": "草原上骑士"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 55.5033252,
+          "lng": 28.7116512
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 55.5033252,
+          "lng": 28.7116512,
+          "message": "出生"
+        }, {
+          "lat": 59.9390095,
+          "lng": 29.5303107
+        }, {
+          "lat": 54.7000902,
+          "lng": 25.1128503
+        }, {
+          "lat": 52.6021103,
+          "lng": 39.4855773
+        }]
+      },
+      "youtubeVideoId": "xePLlli6Me0"
+    }
+  }
+}
