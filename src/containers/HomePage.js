@@ -22,17 +22,13 @@ class HomePage extends Component {
   constructor(props) {
     super(props);
 
-    [this.randKey, this.randCard] = HomePage.rand(this.props.translations.authors);
+    this.randKey = HomePage.rand(this.props.translations.authors);
   }
 
   static rand(object) {
       const keys = Object.keys(object);
       const key = keys[Math.floor(keys.length * Math.random())];
-      const values = object[key];
-      return [
-        key,
-        values,
-      ];
+      return key;
     }  
 
   render() {
@@ -41,7 +37,7 @@ class HomePage extends Component {
     } = this.props;
 
     const randKey = this.randKey;
-    const randCard = this.randCard;
+    const randCard = this.props.translations.authors[this.randKey];
 
     return (
       <div style={{ marginBottom: '20px' }}>
@@ -76,7 +72,7 @@ class HomePage extends Component {
               name={randCard.about.name}
               briefInfo={randCard.about.briefInfo}
               birthPlace={randCard.about.birthPlace}
-              birthPlaceTitle="Место рождения:"
+              birthPlaceTitle="Место рождения:" 
               producerPhotoUrl={randCard.about.mainPhotoUrl}
               buttonName="Перейти на страницу режиссера"
             />
