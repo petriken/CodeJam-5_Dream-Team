@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Translate } from 'react-redux-i18n';
+import { Translate, I18n } from 'react-redux-i18n';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import {
@@ -8,8 +8,6 @@ import {
   CardImg,
   CardLink,
   CardTitle,
-  Jumbotron,
-  Container,
   Row,
   Col,
   Button,
@@ -40,32 +38,34 @@ class HomePage extends Component {
     const randCard = translations.authors[randKey];
 
     return (
-      <div style={{ marginBottom: '20px' }}>
+      <div>
         <Row>
-          <Col sm="8" md="6" lg="6">
-            <Jumbotron fluid style={{ backgroundColor: '#4fcac24d', height: '645px', textAlign: 'center' }}>
-              <Container fluid>
+          <Col sm="12" md="7" lg="8">
+            <Card style={{ backgroundColor: '#4fcac24d', textAlign: 'center' }}>
+              <CardBody>
                 <h1 className="display-6"><Translate value="intro.title" /></h1>
-                <p className="lead" style={{ height: '100%' }}>
-                  <Translate value="intro.text" />
-                  <img width="90%" height="90%"
-                  src="https://www.wikihow.com/images/f/f7/Be-a-Film-Director-Step-16-Version-2.jpg"
-                  alt="Film director"/>
-                </p>
                 <p className="lead">
-                  <Button
+                  <Translate value="intro.text" />
+                </p>
+                <img
+                  width="100%"
+                  height="100%"
+                  src="https://www.wikihow.com/images/f/f7/Be-a-Film-Director-Step-16-Version-2.jpg"
+                  style={{ maxHeight: '450px' }}
+                  alt="Film director"/>
+                <Button
                     block
                     tag={Link}
                     size="lg"
                     to="/producers"
+                    className="lead mt-3"
                   >
                     <Translate value="intro.start"/>
                   </Button>
-                </p>
-              </Container>
-            </Jumbotron>
+              </CardBody>
+            </Card>
           </Col>
-          <Col sm="8" md="6" lg="6">
+          <Col sm="12" md="5" lg="4" style={{ maxHeight: '500px' }}>
             <h2>
               <Translate value="intro.news"/>
             </h2>
@@ -74,9 +74,9 @@ class HomePage extends Component {
               name={randCard.about.name}
               briefInfo={randCard.about.briefInfo}
               birthPlace={randCard.about.birthPlace}
-              birthPlaceTitle="Место рождения:"
+              birthPlaceTitle={I18n.t('directorsPage.birthPlaceTitle')}
               producerPhotoUrl={randCard.about.mainPhotoUrl}
-              buttonName="Перейти на страницу режиссера"
+              buttonName={I18n.t('directorsPage.buttonName')}
             />
           </Col>
           </Row>
