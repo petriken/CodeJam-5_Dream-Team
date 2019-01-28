@@ -42,7 +42,13 @@ class ProducerBioPage extends Component {
         <Col xs="12">
           <Row>
             <Col xs="12" md="4">
-              <img src={mainPhotoUrl} style={{ width: '100%', height: '350px', objectFit: 'cover' }} alt=""/>
+              <img
+                width="100%"
+                height="350px"
+                src={mainPhotoUrl}
+                style={{ objectFit: 'cover' }}
+                alt=""
+              />
             </Col>
             <Col xs="12" md="8">
               <h1 className="mb-3">{name}</h1>
@@ -59,7 +65,7 @@ class ProducerBioPage extends Component {
           </Row>
         </Col>
 
-        <Col xs="6">
+        <Col xs="12" lg="6">
           <Timeline lineColor={'#cbcbcb'}>
             {
               timeLine.map((authorItem, index) => (
@@ -76,7 +82,7 @@ class ProducerBioPage extends Component {
           </Timeline>
         </Col>
 
-        <Col xs="6">
+        <Col xs="12" lg="6">
           <Translate tag="h2" value="intro.filmography" />
           <ul style={{ listStyleType: 'none' }}>
           {
