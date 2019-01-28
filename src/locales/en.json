@@ -1,0 +1,698 @@
+{
+  "intro": {
+    "title": "Directed by movie Belarus",
+    "text": "Welcome to the cultural portal where you will find information about Belarusian film Director. Photos, facts of life, and much more!",
+    "news": "The Director of the day",
+    "start": "To start",
+    "devs": "The developers of the site",
+    "birthPlace": "Place of birth",
+    "filmography": "Filmography",
+    "gallery": "Photo gallery"
+  },
+  "directorsPage": {
+    "search": {
+      "label": "Enter the name or city where you were born filmmaker",
+      "placeholder": "The name or city where you were born filmmaker",
+      "button": "Search"
+    },
+    "birthPlaceTitle": "Place of birth",
+    "buttonName": "Go to the page of the Director"
+  },
+  "autors": {
+    "autor1": {
+      "about": {
+        "name": "Yuri Khaschevatsky I.",
+        "briefInfo": "Belarusian and Soviet film Director",
+        "birthPlace": "Odessa",
+        "workPlaces": ["Minsk"],
+        "mainPhotoUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/3z0vyHp/1.jpg",
+        "alt": "Yuri Khaschevatsky I."
+      }, {
+        "src": "https://i.ibb.co/ZJStbc3/2.jpg",
+        "alt": "Yuri Khaschevatsky I."
+      }, {
+        "src": "https://i.ibb.co/wSMTbsH/3.jpg",
+        "alt": "Yuri Khaschevatsky I."
+      }, {
+        "src": "https://i.ibb.co/dPg6kmf/4.jpg",
+        "alt": "Yuri Khaschevatsky I."
+      }, {
+        "src": "https://i.ibb.co/dJZb6zS/5.jpg",
+        "alt": "Yuri Khaschevatsky I."
+      }, {
+        "src": "https://i.ibb.co/JzSXJyT/6.jpg",
+        "alt": "Yuri Khaschevatsky I."
+      }, {
+        "src": "https://i.ibb.co/HTtVxT8/7.jpg",
+        "alt": "Yuri Khaschevatsky I."
+      }],
+      "timeLine": [{
+        "year": 1947,
+        "info": ["Born October 18, 1947 in Odessa (USSR)"]
+      }, {
+        "year": 1973,
+        "info": ["Graduated from the Odessa technological Institute (Odessa national Academy of food technologies)"]
+      }, {
+        "year": 1976,
+        "info": ["He began working in Batongbacal Director"]
+      }, {
+        "year": 1978,
+        "info": ["Started working on the Belarusian TV"]
+      }, {
+        "year": 1981,
+        "info": ["Okonchil Leningrad state Institute of theatre, music and cinematography (LGITMiK)"]
+      }, {
+        "year": 1985,
+        "info": ["Started to work on the \"Belarusian film\""]
+      }, {
+        "year": 1985,
+        "info": ["Received the award for the film \"the quiet life in the Deep\":", "Grand Prix of the all-Union film festival in Kiev"]
+      }, {
+        "year": 1987,
+        "info": ["Received the award for the film \"Here was the wings\"", "Grand Prix of the all-Union film festival in Minsk"]
+      }, {
+        "year": 1987,
+        "info": ["Received the award for the film \"the Recruits\"", "Grand Prix of the festival of Belarusian cinema"]
+      }, {
+        "year": 1989,
+        "info": ["Began working at the film Studio \"Belarusfilm\""]
+      }, {
+        "year": 1989,
+        "info": ["Received the award for the film \"Counter-claim\":", "Grand Prix \"Golden centaur\" International film festival \"Message to Man\" (St.-Petersburg)"]
+      }, {
+        "year": 1996,
+        "info": ["For the film \"Oasis\" won the award:", "Jury prize international film festival of ecological films (Freiburg)"]
+      }, {
+        "year": 1998,
+        "info": ["For the film \"Russian happiness\" received awards:", "the prize of the \"Ostankino\" for the best film and the award at the international film festival in Yekaterinburg", "\"Golden Gate Award\" (San Francisco)"]
+      }, {
+        "year": 1998,
+        "info": ["For the film \"an Ordinary President\" received awards:", "The Sakharov prize of the Russian Union of writers \"April\" (Moscow)", "\"The film World\" Berlin international film festival", "The Grand Prix Human Rights Watch (new York)", "\"Golden Gate Award\" (San Francisco)"]
+      }, {
+        "year": 2004,
+        "info": ["For the film \"Caucasian captives\" received awards:", "Grand Prix of the world organization against torture, the international documentary film festival in Geneva", "Gold award international film festival in Belgrade"]
+      }, {
+        "year": 2016,
+        "info": ["Took part in the parliamentary elections in Belarus"]
+      }],
+      "filmography": [{
+        "year": 1985,
+        "titleMovie": "This quiet life in the Deep (documentary)"
+      }, {
+        "year": 1986,
+        "titleMovie": "Return to Khatyn (film)"
+      }, {
+        "year": 1986,
+        "titleMovie": "Look at your house (documentary)"
+      }, {
+        "year": 1987,
+        "titleMovie": "Stubborn man (documentary)"
+      }, {
+        "year": 1987,
+        "titleMovie": "Here was wings (documentary)"
+      }, {
+        "year": 1987,
+        "titleMovie": "Recruits (documentary)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988 — the Travelers (documentary)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988 — Masters and apprentices (documentary)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988 — the Formula of acceleration (documentary)"
+      }, {
+        "year": 1989,
+        "titleMovie": "1989 — Counterclaim (documentary)"
+      }, {
+        "year": 1989,
+        "titleMovie": "In the sky on a wheel (documentary)"
+      }, {
+        "year": 1989,
+        "titleMovie": "Who is absent today"
+      }, {
+        "year": 1990,
+        "titleMovie": "An intermediate person"
+      }, {
+        "year": 1990,
+        "titleMovie": "Highway (documentary)"
+      }, {
+        "year": 1991,
+        "titleMovie": "Orange vests (documentary)"
+      }, {
+        "year": 1992,
+        "titleMovie": "Russian happiness (documentary)"
+      }, {
+        "year": 1993,
+        "titleMovie": "The passion of Marianne (documentary)"
+      }, {
+        "year": 1994,
+        "titleMovie": "The bread of Israel (documentary)"
+      }, {
+        "year": 1996,
+        "titleMovie": "The oasis (documentary)"
+      }, {
+        "year": 1996,
+        "titleMovie": "An ordinary President (documentary)"
+      }, {
+        "year": 1997,
+        "titleMovie": "Echo of silence (documentary)"
+      }, {
+        "year": 1998,
+        "titleMovie": "The time of Zhou Enlai (documentary)"
+      }, {
+        "year": 2000,
+        "titleMovie": "Gods of the Hammer and Sickle (documentary)"
+      }, {
+        "year": 2002,
+        "titleMovie": "To live to love (documentary)"
+      }, {
+        "year": 2002,
+        "titleMovie": "Caucasian prisoners (documentary)"
+      }, {
+        "year": 2003,
+        "titleMovie": "Holy doctor"
+      }, {
+        "year": 2003,
+        "titleMovie": "Sunny the clown (documentary)"
+      }, {
+        "year": 2007,
+        "titleMovie": "Kalinouski square (Belarus. The square documentary)"
+      }, {
+        "year": 2007,
+        "titleMovie": "Fast forward to the past"
+      }, {
+        "year": 2008,
+        "titleMovie": "In search of Yiddish (documentary, together with Alexander Gorodnitsky)"
+      }, {
+        "year": 2010,
+        "titleMovie": "Lobotomy (documentary)"
+      }, {
+        "year": 2011,
+        "titleMovie": "Ordinary election (documentary)"
+      }, {
+        "year": 2018,
+        "titleMovie": "It's a mad, mad, mad \"Russian world\" (documentary)"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 46.4737201,
+          "lng": 30.6891207
+        },
+        "markers": [{
+          "lat": 46.4737201,
+          "lng": 30.6891207,
+          "message": "Born"
+        }, {
+          "lat": 53.9128096,
+          "lng": 27.5660955
+        }]
+      },
+      "youtubeVideoId": "6kZXMx0fywQ"
+    },
+    "autor2": {
+      "about": {
+        "name": "Vladimir Vladimirovich Korsh-Sablin",
+        "briefInfo": "Belarusian Soviet film Director, actor movie. One of the founders of Belarusian cinema.",
+        "birthPlace": "Moscow",
+        "workPlaces": ["Minsk", "Moscow"],
+        "mainPhotoUrl": "https://static.etvnet.com/shared/persons/person/000/004/093/korsh-sablin.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/CHZ6CtN/1.jpg",
+        "alt": "A scene from the film Fire years 1939"
+      }, {
+        "src": "https://i.ibb.co/ZWkSLxw/2.jpg",
+        "alt": "A scene from the film Fire years 1939"
+      }, {
+        "src": "https://i.ibb.co/gJtrxwN/3.jpg",
+        "alt": "Vladimir Vladimirovich Korsh-Sablin"
+      }, {
+        "src": "https://i.ibb.co/r0Zytns/4.jpg",
+        "alt": "Still from the film In the fire born 1929 / Born in Flames"
+      }, {
+        "src": "https://i.ibb.co/swTx9zs/5.jpg",
+        "alt": "Still from the film the Daughter of country 1937 The Daughter of Motherland"
+      }, {
+        "src": "https://i.ibb.co/B2q6BQc/6.jpg",
+        "alt": "Still from the film Seekers of happiness 1936 / Seekers of Happiness"
+      }],
+      "timeLine": [{
+        "year": 1900,
+        "info": ["Born on 16(29) March in Moscow"]
+      }, {
+        "year": 1917,
+        "info": ["The end of drama school", "The beginning of creative activity as an actor in the theatre of his maternal grandfather, Fedor Adamovich Korsch — Korsch Theatre (according to family legend, grandfather, impressed by the success of his grandson, allowed him to combine both names).", "Participant in the Civil war."]
+      }, {
+        "year": 1923,
+        "info": ["The beginning of the movie."]
+      }, {
+        "year": 1925,
+        "info": ["assistant, assistant Director and actor of the film Studio \"of the state\" (\"Sovkino\") in Moscow"]
+      }, {
+        "year": 1926,
+        "info": ["He was an actor and Director (1929) film Studio \"Soviet Belarus\" special management \"Belgoskino\" (later \"Belarusfilm\"); filmed Comedy, drama, biopics."]
+      }, {
+        "year": "1945-1960, 1969—1974",
+        "info": ["Korsh-Sablin was the artistic Director of film Studio \"Belarusfilm\"."]
+      }, {
+        "year": 1950,
+        "info": ["Winner of the Stalin prize of the third degree, for the film \"Constantine Zaslonov\" (1949)"]
+      }, {
+        "year": 1957,
+        "info": ["The Chairman of the organizational Bureau of the Union of cinematography workers of the Byelorussian SSR."]
+      }, {
+        "year": "1962-1974",
+        "info": ["The first Secretary of the cinematographers Union of the BSSR.", "Member of the Union of cinematographers of the USSR."]
+      }, {
+        "year": 1969,
+        "info": ["Received the title of people's artist of the USSR"]
+      }, {
+        "year": 1974,
+        "info": ["6 Jul 1974 Vladimir Vladimirovich Korsh-Sablin died. He was buried in Minsk at Eastern cemetery."]
+      }],
+      "filmography": [{
+        "year": 1930,
+        "titleMovie": "In the fire born"
+      }, {
+        "year": 1933,
+        "titleMovie": "First platoon"
+      }, {
+        "year": 1936,
+        "titleMovie": "Seekers of happiness"
+      }, {
+        "year": 1939,
+        "titleMovie": "Fire years"
+      }, {
+        "year": 1940,
+        "titleMovie": "My love"
+      }, {
+        "year": 1949,
+        "titleMovie": "Konstantin Zaslonov (with A. Fajncimmer)"
+      }, {
+        "year": 1953,
+        "titleMovie": "Singing skylarks (together with N. Sannikov)"
+      }, {
+        "year": 1955,
+        "titleMovie": "Who has the last laugh"
+      }, {
+        "year": 1958,
+        "titleMovie": "Red leaves"
+      }, {
+        "year": 1960,
+        "titleMovie": "The first test "
+      }, {
+        "year": 1967,
+        "titleMovie": "Remember this day"
+      }, {
+        "year": 1964,
+        "titleMovie": "Moscow - Genoa (in collaboration with A. Speshneva and P. Armand)"
+      }, {
+        "year": 1971,
+        "titleMovie": "The collapse of the Empire"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 55.5807481,
+          "lng": 27.5560955
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 55.5807481,
+          "lng": 36.8251315,
+          "message": "Born"
+        }]
+      },
+      "youtubeVideoId": "k5YDsIC_nHY"
+    },
+    "autor3": {
+      "about": {
+        "name": "Victor T. Tours",
+        "briefInfo": "Belarusian Soviet film Director, screenwriter and teacher.",
+        "birthPlace": "Mogilev",
+        "workPlaces": ["Minsk"],
+        "mainPhotoUrl": "http://m.kino-teatr.ru/acter/foto/sov/29477.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/TMMRzdD/1.jpg",
+        "alt": "Victor T. Tours"
+      }, {
+        "src": "https://i.ibb.co/gvBPzsf/2.jpg",
+        "alt": "Victor T. Tours"
+      }, {
+        "src": "https://i.ibb.co/51Zzgj3/3.jpg",
+        "alt": "In the film \"starting Point\". With cameraman Yuri Marginem."
+      }, {
+        "src": "https://i.ibb.co/42S3FDR/4.jpg",
+        "alt": "In the film \"Through the cemetery\"."
+      }, {
+        "src": "https://i.ibb.co/FHt7CGX/5.jpg",
+        "alt": "In the film, \"I come from childhood\"."
+      }, {
+        "src": "https://i.ibb.co/P6q2fbB/6.jpg",
+        "alt": "Belarusian classics. Viktor Turov and Ales Adamovich."
+      }, {
+        "src": "https://i.ibb.co/NnYWZyk/7.jpg",
+        "alt": "In the film \"swamp People\"."
+      }],
+      "timeLine": [{
+        "year": 1936,
+        "info": ["Viktor Turov was born in Mogilev (according to other sources — in the village of Bryli Mogilev district)."]
+      }, {
+        "year": 1959,
+        "info": ["Director of the Studio Belarusfilm (Minsk).", "Author of several documentaries and stories in the newsreel \"Soviet Belarus\"."]
+      }, {
+        "year": 1961,
+        "info": ["Graduated from the directing Department VGIK(workshop of A. Dovzhenko and M. E. Chiaureli)."]
+      }, {
+        "year": "1976—1981",
+        "info": ["1-St Secretary of the Union of cinematographers of the Byelorussian SSR.", "Academician of the world Academy of Slavic art."]
+      }, {
+        "year": 1975,
+        "info": ["Honored art worker of the Byelorussian SSR"]
+      }, {
+        "year": 1984,
+        "info": ["For the film \"swamp People\" was awarded the State prize of the Byelorussian SSR"]
+      }, {
+        "year": 1986,
+        "info": ["People's artist of the USSR"]
+      }, {
+        "year": "1989—1996",
+        "info": ["Director's workshop led at the Belarusian Academy of arts (Professor)."]
+      }, {
+        "year": 1994,
+        "info": ["In the 1994 film \"Through the cemetery\"(1965) became one of the hundred best world war movies according to UNESCO."]
+      }, {
+        "year": 1995,
+        "info": ["Tours was included in the UNESCO top 50 filmmakers of the world, which consisted of an Honorary Committee for the celebration of the 100th anniversary of cinematography."]
+      }, {
+        "year": 1996,
+        "info": ["Viktor Turov died, he was buried in Minsk at Eastern cemetery."]
+      }],
+      "filmography": [{
+        "year": 1965,
+        "titleMovie": "Through the cemetery"
+      }, {
+        "year": 1966,
+        "titleMovie": "I come from childhood"
+      }, {
+        "year": 1967,
+        "titleMovie": "War under the roofs"
+      }, {
+        "year": 1981,
+        "titleMovie": "Polesye chronicle"
+      }, {
+        "year": 1981,
+        "titleMovie": "Swamp people"
+      }, {
+        "year": 1982,
+        "titleMovie": "The breath of the storm"
+      }, {
+        "year": 1994,
+        "titleMovie": "Gentleman Zavalnia, or Belarus in fantastic stories"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 53.8834808,
+          "lng": 30.2114948
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 53.8834808,
+          "lng": 30.2114948,
+          "message": "Born"
+        }]
+      },
+      "youtubeVideoId": "2juET6V3YpM"
+    },
+    "autor4": {
+      "about": {
+        "name": "Mikhail Nikolaevich, Ptashuk",
+        "briefInfo": "Soviet and Belarusian film Director. ",
+        "birthPlace": "Feduke",
+        "workPlaces": ["Minsk", "Moscow", "Kazan"],
+        "mainPhotoUrl": "https://upload.wikimedia.org/wikipedia/ru/f/f7/M_Ptashuk.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/4YTnJD3/1.jpg",
+        "alt": "People's artist of the Republic of filmmaker Michael Ptashuk on the set. January 1993"
+      }, {
+        "src": "https://i.ibb.co/fnG1X59/2.jpg",
+        "alt": "The Studio Belarusfilm. Filmmaker Michael Ptashuk (center) on the set of the film Sign of misfortune by Vasil Bykov. November 1985"
+      }, {
+        "src": "https://i.ibb.co/dLZxYBm/3.jpg",
+        "alt": "Michael Ptashuk during the shooting of the film in 1999"
+      }, {
+        "src": "https://i.ibb.co/Srcmh8y/4.jpg",
+        "alt": "Ptashuk at the premiere of her film 'In August of 44 - th '"
+      }, {
+        "src": "https://i.ibb.co/phHFb5b/5.jpg",
+        "alt": "Ptashuk, with his wife and daughter"
+      }, {
+        "src": "https://i.ibb.co/wrKFHdz/6.jpg",
+        "alt": "Operator V. Nikolaev and Director Michael Ptashuk during the filming of the feature film \"Take the pain\"."
+      }, {
+        "src": "https://i.ibb.co/3ykv7Kr/7.jpg",
+        "alt": "Actor Yevgeny Mironov, Director Michael Ptashuk (center) and Polish actress Beata Tyszkiewicz during the filming of the film \"In August 44-go...\". 1995"
+      }],
+      "timeLine": [{
+        "year": 1943,
+        "info": ["Michael was born January 28, 1943 in the village of Feduke, Liahovichi district, Brest region."]
+      }, {
+        "year": 1967,
+        "info": ["He graduated in 1967 Moscow theatre school named after BV Shchukin (workshop B. E. Zahavi)."]
+      }, {
+        "year": 1974,
+        "info": ["Worked at Belarusfilm", "He worked as a Director in theaters in Moscow and Kazan."]
+      }, {
+        "year": 1982,
+        "info": ["Honored art worker of the BSSR."]
+      }, {
+        "year": 1989,
+        "info": ["Ptashuk established the Belarusian independent Studio at the Union of cinematographers, and was its artistic Director.", "His work has received awards at international festivals in Belarus, Spain, Russia, Czech Republic, Sweden and Yugoslavia."]
+      }, {
+        "year": 1990,
+        "info": ["People's artist of the BSSR."]
+      }, {
+        "year": 2002,
+        "info": ["Ptashuk, died in a car accident in Moscow.", "The day before he flew in from Hollywood to Moscow on presentation of film awards \"Nika\". His painting \"In August 44-go...\" were all major category awards.", "He was buried in Minsk at Eastern cemetery."]
+      }],
+      "filmography": [{
+        "year": 1973,
+        "titleMovie": "About Vitya, Masha and Marines"
+      }, {
+        "year": 1975,
+        "titleMovie": "Wood swing"
+      }, {
+        "year": 1976,
+        "titleMovie": "Time chose us"
+      }, {
+        "year": 1980,
+        "titleMovie": "Take your pain"
+      }, {
+        "year": 1984,
+        "titleMovie": "Black castle Olshansky"
+      }, {
+        "year": 1986,
+        "titleMovie": "Sign of trouble"
+      }, {
+        "year": 1989,
+        "titleMovie": "Our train"
+      }, {
+        "year": 1992,
+        "titleMovie": "KOOPERATIV \"Politbyuro\", or Will the long goodbye"
+      }, {
+        "year": 1995,
+        "titleMovie": "A fantasy"
+      }, {
+        "year": 2001,
+        "titleMovie": "In August of the 44th..."
+      }, {
+        "year": 2003,
+        "titleMovie": "In June 41-go /The Burning Land"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 53.0348791,
+          "lng": 26.0923454
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 53.0348791,
+          "lng": 26.0923454,
+          "message": "Born"
+        }, {
+          "lat": 55.5807481,
+          "lng": 36.8251315
+        }, {
+          "lat": 55.7954219,
+          "lng": 48.9332213
+        }]
+      },
+      "youtubeVideoId": "QM6Z8_yheZM"
+    },
+    "autor5": {
+      "about": {
+        "name": "Yury Viktorovich, TARIC",
+        "briefInfo": "Soviet film Director and screenwriter.",
+        "birthPlace": "Polotsk",
+        "workPlaces": ["Minsk", "Moscow", "Tobolsk", "Chita", "Lipetsk", "Vilnius", "Leningrad", "Saint Petersburg"],
+        "mainPhotoUrl": "https://upload.wikimedia.org/wikipedia/ru/9/98/Yury_tarich.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/Tww5jw9/1.jpg",
+        "alt": "Yury Viktorovich, TARIC"
+      }, {
+        "src": "https://i.ibb.co/dB5KJwJ/2.jpg",
+        "alt": "Still from the film Belarusian short stories 1943"
+      }, {
+        "src": "https://i.ibb.co/4YTJzRY/3.jpg",
+        "alt": "Still from the film Belarusian short stories 1943"
+      }, {
+        "src": "https://i.ibb.co/6nhmjyW/4.jpg",
+        "alt": "Still from the film Murderers go on the road 1942"
+      }, {
+        "src": "https://i.ibb.co/LJKLJ2D/5.jpg",
+        "alt": "Still from the film Murderers go on the road 1942"
+      }, {
+        "src": "https://i.ibb.co/8Bxvv1r/6.jpg",
+        "alt": "Still from the film Forest story 1926"
+      }],
+      "timeLine": [{
+        "year": 1885,
+        "info": ["Yuriy was born on 12(24) January in Polotsk"]
+      }, {
+        "year": "1903—1905",
+        "info": ["She studied at the law faculty of Moscow University"]
+      }, {
+        "year": 1905,
+        "info": ["For participation in the revolutionary unrest in Warsaw was exiled to Tobolsk province."]
+      }, {
+        "year": 1907,
+        "info": ["He was an actor in Tobolsk, then to Chita, Lipetsk, Tambov, Vilna."]
+      }, {
+        "year": 1918,
+        "info": ["Actor and Director of a number of leading theatres in Moscow (worked including with V. Meyerhold)."]
+      }, {
+        "year": 1920,
+        "info": ["Becoming one of the leaders of the cadets ' theater in the Kremlin."]
+      }, {
+        "year": 1923,
+        "info": ["Work in cinema: first the screenwriter, then the Director."]
+      }, {
+        "year": "середина 1920-х",
+        "info": ["Worked in Leningrad, including who was there, then the Studio \"Belgoskino\"; one of the founders of Belarusian cinematography."]
+      }, {
+        "year": 1926,
+        "info": ["Put the first Belarusian feature film \"Forest story\" (the novel by M. Carota)."]
+      }, {
+        "year": 1935,
+        "info": ["Honored art worker of the RSFSR"]
+      }, {
+        "year": "1943—1945",
+        "info": ["Led the Studio\", Mongolkino\". Later worked at the Studio \"soyuzdetfilm\", \"Belarusfilm\""]
+      }],
+      "filmography": [{
+        "year": 1925,
+        "titleMovie": "Moroka"
+      }, {
+        "year": 1925,
+        "titleMovie": "First lights"
+      }, {
+        "year": 1926,
+        "titleMovie": "Wings slave"
+      }, {
+        "year": 1926,
+        "titleMovie": "Bulat-Batyr"
+      }, {
+        "year": 1926,
+        "titleMovie": "Forest story"
+      }, {
+        "year": 1928,
+        "titleMovie": "Their own and others"
+      }, {
+        "year": 1928,
+        "titleMovie": "Hub"
+      }, {
+        "year": 1928,
+        "titleMovie": "The captain's daughter"
+      }, {
+        "year": 1929,
+        "titleMovie": "Until tomorrow"
+      }, {
+        "year": 1930,
+        "titleMovie": "Hatred (the second name — \"Black blood\")"
+      }, {
+        "year": 1930,
+        "titleMovie": "On two plants"
+      }, {
+        "year": 1930,
+        "titleMovie": "Osinstall"
+      }, {
+        "year": 1930,
+        "titleMovie": "Coup"
+      }, {
+        "year": 1931,
+        "titleMovie": "Poem name of liberation"
+      }, {
+        "year": 1932,
+        "titleMovie": "Fugitives"
+      }, {
+        "year": 1932,
+        "titleMovie": "Height 88,5"
+      }, {
+        "year": 1935,
+        "titleMovie": "Ship way"
+      }, {
+        "year": 1938,
+        "titleMovie": "Eleventh July"
+      }, {
+        "year": 1940,
+        "titleMovie": "Heaven"
+      }, {
+        "year": 1942,
+        "titleMovie": "Belarusian short stories"
+      }, {
+        "year": 1942,
+        "titleMovie": "Murderers go on the road"
+      }, {
+        "year": 1945,
+        "titleMovie": "Prairie knights"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 55.5033252,
+          "lng": 28.7116512
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 55.5033252,
+          "lng": 28.7116512,
+          "message": "Born"
+        }, {
+          "lat": 59.9390095,
+          "lng": 29.5303107
+        }, {
+          "lat": 54.7000902,
+          "lng": 25.1128503
+        }, {
+          "lat": 52.6021103,
+          "lng": 39.4855773
+        }]
+      },
+      "youtubeVideoId": "xePLlli6Me0"
+    }
+  }
+}
