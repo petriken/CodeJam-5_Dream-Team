@@ -72,7 +72,6 @@ class HomePage extends Component {
               <Translate value="intro.news"/>
             </h2>
             <ProducerCard
-              tag={Link}
               to={`/producers/${randKey}`}
               name={randCard.about.name}
               briefInfo={randCard.about.briefInfo}
