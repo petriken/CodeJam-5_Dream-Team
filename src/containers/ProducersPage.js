@@ -8,27 +8,30 @@ import { I18n } from 'react-redux-i18n';
 import ProducerCard from '../components/ProducerCard';
 import SearchProducers from '../components/SearchProducers';
 
-import directorFileter from '../utils/directorsFilter';
+import directorFilter from '../utils/directorsFilter';
 
 class ProducersPage extends Component {
   constructor(props) {
     super(props);
-    const { authors } = props.translations;
 
-    this.savedDirectors = authors;
     this.state = {
-      directors: authors,
+      searchValue: '',
     };
 
     this.handleSearch = this.handleSearch.bind(this);
   }
 
   handleSearch(searchValue) {
-    const newDirectors = directorFileter(this.savedDirectors, searchValue);
-    this.setState({ directors: newDirectors });
+    this.setState({ searchValue });
   }
 
   render() {
+    const {
+      translations: {
+        authors: directors,
+      },
+    } = this.props;
+
     return (
       <div>
         <Row>
@@ -38,7 +41,9 @@ class ProducersPage extends Component {
         </Row>
         <Row>
           {
-            Object.entries(this.state.directors).map((director) => {
+            Object.entries(
+              directorFilter(directors, this.state.searchValue),
+            ).map((director) => {
               const [directorKey, directorData] = director;
               const { about } = directorData;
               if (!about) return '';
