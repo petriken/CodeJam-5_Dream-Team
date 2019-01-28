@@ -7,7 +7,8 @@
     "devs": "The developers of the site",
     "birthPlace": "Place of birth",
     "filmography": "Filmography",
-    "gallery": "Photo gallery"
+    "gallery": "Photo gallery",
+    "video": "Watch the video"
   },
   "directorsPage": {
     "search": {
@@ -17,6 +18,38 @@
     },
     "birthPlaceTitle": "Place of birth",
     "buttonName": "Go to the page of the Director"
+  },
+  "team": {
+    "member1": {
+      "name": "Dmitry Kunets",
+      "github": "brateckrolikstudent",
+      "mail": "ibelieveinarabbit@gmail.com",
+      "img": "https://brateckrolikstudent.github.io/rsschool-codejam1-cv/images/avatar.jpg"
+    },
+    "member2": {
+      "name": "Anastasia Mazur",
+      "github": "AnastasiyaMazura",
+      "mail": "mazura.anastasiya@gmail.com",
+      "img": "https://anastasiyamazura.github.io/rsschool-codejam1-cv/img/Mazura_Anastasia.jpg"
+    },
+    "member3": {
+      "name": "Denis Kovalenok",
+      "github": "dzianiskavalionak",
+      "mail": "nereidy4@gmail.com",
+      "img": "https://avatars2.githubusercontent.com/u/41955026?s=460&v=4"
+    },
+    "member4": {
+      "name": "Peter, Stasukevich",
+      "github": "petriken",
+      "mail": "petriken82@gmail.com",
+      "img": "https://cdn.discordapp.com/attachments/537907151985704962/538789462943989773/photo.png"
+    },
+    "member5": {
+      "name": "Yana Baltic",
+      "github": "yana-bashtyk",
+      "mail": "yankabashtyk16@gmail.com",
+      "img": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/27973479_1736578996406233_261896360789868839_n.jpg?_nc_cat=107&_nc_ht=scontent-frx5-1.xx&oh=d49a9311ec8afaf37cb07a9ccec51f96&oe=5CB57C44"
+    }
   },
   "autors": {
     "autor1": {
