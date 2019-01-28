@@ -2,32 +2,77 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { Col, Row } from 'reactstrap';
+import { I18n } from 'react-redux-i18n';
 
-import { Button } from 'reactstrap';
+import ProducerCard from '../components/ProducerCard';
+import SearchProducers from '../components/SearchProducers';
+
+import directorFilter from '../utils/directorsFilter';
 
 class ProducersPage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      searchValue: '',
+    };
+
+    this.handleSearch = this.handleSearch.bind(this);
+  }
+
+  handleSearch(searchValue) {
+    this.setState({ searchValue });
+  }
+
   render() {
     const {
-      translations,
+      translations: {
+        authors: directors,
+      },
     } = this.props;
 
     return (
       <div>
-        {
-          Object.entries(translations.authors).map((item) => {
-            const [key, value] = item;
-            return (
-              <Button
-                tag={Link}
-                to={`/producers/${key}`}
-                key={key}
-                style={{ margin: '0 10px' }}
-              >
-                {value.lastName}
-              </Button>
-            );
-          })
-        }
+        <Row>
+          <Col xs="12" sm="8" lg="6">
+            <SearchProducers onClickSearch={this.handleSearch} />
+          </Col>
+        </Row>
+        <Row>
+          {
+            Object.entries(
+              directorFilter(directors, this.state.searchValue),
+            ).map((director) => {
+              const [directorKey, directorData] = director;
+              const { about } = directorData;
+              if (!about) return '';
+
+              const {
+                name,
+                briefInfo,
+                birthPlace,
+                mainPhotoUrl,
+              } = about;
+              if (!name) return '';
+
+              return (
+                <Col xs="12" sm="6" lg="4" key={directorKey} style={{ marginTop: '5%' }}>
+                  <ProducerCard
+                    tag={Link}
+                    to={`/producers/${directorKey}`}
+                    name={name}
+                    briefInfo={briefInfo}
+                    birthPlace={birthPlace}
+                    birthPlaceTitle={I18n.t('directorsPage.birthPlaceTitle')}
+                    producerPhotoUrl={mainPhotoUrl}
+                    buttonName={I18n.t('directorsPage.buttonName')}
+                  />
+                </Col>
+              );
+            })
+          }
+        </Row>
       </div>
     );
   }

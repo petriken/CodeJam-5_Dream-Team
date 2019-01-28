@@ -17,11 +17,20 @@ const history = createBrowserHistory({
 
 class App extends Component {
   render() {
+    const {
+      dispatch,
+      languages,
+    } = this.props;
+
     return (
       <div>
         <Router history={history}>
           <div>
-            <NavigationBar routes={routes} dispatch={this.props.dispatch}/>
+            <NavigationBar
+              routes={routes}
+              dispatch={dispatch}
+              languages={languages}
+            />
             <Container style={{ marginTop: '10px' }}>
               <Switch>
                 {
@@ -45,6 +54,14 @@ class App extends Component {
 
 App.propTypes = {
   dispatch: PropTypes.func.isRequired,
+  languages: PropTypes.array,
 };
 
-export default connect()(App);
+function mapStateToProps(state) {
+  const { i18n } = state;
+  return {
+    languages: Object.keys(i18n.translations),
+  };
+}
+
+export default connect(mapStateToProps)(App);

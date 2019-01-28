@@ -1,0 +1,731 @@
+{
+  "intro": {
+    "title": "Reżyserzy kina Białorusi",
+    "text": "Zapraszamy na kulturalny portal, gdzie znajdziesz informacje na temat białoruskich reżyserów kina. Zdjęcia, fakty z życia, wideo i wiele więcej!",
+    "news": "Reżyseria dnia",
+    "start": "Zacząć",
+    "devs": "Twórcy serwisu",
+    "birthPlace": "Miejsce urodzenia",
+    "filmography": "Filmografia",
+    "gallery": "Galeria zdjęć",
+    "video": "Zobacz wideo"
+  },
+  "directorsPage": {
+    "search": {
+      "label": "Wpisz nazwę lub miasto, w którym urodził się reżyser",
+      "placeholder": "Imię i nazwisko lub miasto, w którym urodził się reżyser",
+      "button": "Wyszukiwanie"
+    },
+    "birthPlaceTitle": "Miejsce urodzenia",
+    "buttonName": "Odwiedź stronę reżysera"
+  },
+  "team": {
+    "member1": {
+      "name": "Dmitrij Кунец",
+      "github": "brateckrolikstudent",
+      "mail": "ibelieveinarabbit@gmail.com",
+      "img": "https://brateckrolikstudent.github.io/rsschool-codejam1-cv/images/avatar.jpg"
+    },
+    "member2": {
+      "name": "Anastazja Mazura",
+      "github": "AnastasiyaMazura",
+      "mail": "mazura.anastasiya@gmail.com",
+      "img": "https://anastasiyamazura.github.io/rsschool-codejam1-cv/img/Mazura_Anastasia.jpg"
+    },
+    "member3": {
+      "name": "Denis Коваленок",
+      "github": "dzianiskavalionak",
+      "mail": "nereidy4@gmail.com",
+      "img": "https://avatars2.githubusercontent.com/u/41955026?s=460&v=4"
+    },
+    "member4": {
+      "name": "Piotr Сташукевич",
+      "github": "petriken",
+      "mail": "petriken82@gmail.com",
+      "img": "https://cdn.discordapp.com/attachments/537907151985704962/538789462943989773/photo.png"
+    },
+    "member5": {
+      "name": "Jana Баштык",
+      "github": "yana-bashtyk",
+      "mail": "yankabashtyk16@gmail.com",
+      "img": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/27973479_1736578996406233_261896360789868839_n.jpg?_nc_cat=107&_nc_ht=scontent-frx5-1.xx&oh=d49a9311ec8afaf37cb07a9ccec51f96&oe=5CB57C44"
+    }
+  },
+  "authors": {
+    "author1": {
+      "about": {
+        "name": "Jurij Иосифович Хащеватский",
+        "briefInfo": "białoruski i radziecki reżyser filmowy",
+        "birthPlace": "Odessa",
+        "workPlaces": ["Mińsk"],
+        "mainPhotoUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/3z0vyHp/1.jpg",
+        "alt": "Хащеватский Jurij Иосифович"
+      }, {
+        "src": "https://i.ibb.co/ZJStbc3/2.jpg",
+        "alt": "Хащеватский Jurij Иосифович"
+      }, {
+        "src": "https://i.ibb.co/wSMTbsH/3.jpg",
+        "alt": "Хащеватский Jurij Иосифович"
+      }, {
+        "src": "https://i.ibb.co/dPg6kmf/4.jpg",
+        "alt": "Хащеватский Jurij Иосифович"
+      }, {
+        "src": "https://i.ibb.co/dJZb6zS/5.jpg",
+        "alt": "Хащеватский Jurij Иосифович"
+      }, {
+        "src": "https://i.ibb.co/JzSXJyT/6.jpg",
+        "alt": "Хащеватский Jurij Иосифович"
+      }, {
+        "src": "https://i.ibb.co/HTtVxT8/7.jpg",
+        "alt": "Хащеватский Jurij Иосифович"
+      }],
+      "timeLine": [{
+        "year": 1947,
+        "info": ["Urodził się 18 października 1947 w Odessie (ZSRR)"]
+      }, {
+        "year": 1973,
+        "info": ["Ukończył Odeski instytut technologiczny (Odeska narodowa akademia technologii żywności)"]
+      }, {
+        "year": 1976,
+        "info": ["Zaczął pracować w Белторгрекламе reżyserem"]
+      }, {
+        "year": 1978,
+        "info": ["Zaczął pracować w Białoruskiej telewizji"]
+      }, {
+        "year": 1981,
+        "info": ["Окончик Leningrad państwowy instytut teatru, muzyki i kinematografii (ЛГИТМиК)"]
+      }, {
+        "year": 1985,
+        "info": ["Zaczął pracować w \"Białoruskim tv film\""]
+      }, {
+        "year": 1985,
+        "info": ["Otrzymał nagrodę za film \"Ta cicha życie w Głębokim\":", "Grand prix Wszechzwiązkowego festiwalu filmów telewizyjnych w Kijowie"]
+      }, {
+        "year": 1987,
+        "info": ["Otrzymał nagrodę za film \"był Tu Kryłowa\"", "Grand prix Wszechzwiązkowego festiwalu filmów telewizyjnych w Mińsku"]
+      }, {
+        "year": 1987,
+        "info": ["Otrzymał nagrodę za film \"Poborowi\"", "Grand prix festiwalu kina białoruskiego"]
+      }, {
+        "year": 1989,
+        "info": ["Zaczął pracować na programie \"Białoruśfilm\""]
+      }, {
+        "year": 1989,
+        "info": ["Otrzymał nagrodę za film \"roszczenia\":", "Grand prix \"Złoty centaur\" Międzynarodowego festiwalu filmowego \"List do Człowieka\" (Sankt-Petersburg)"]
+      }, {
+        "year": 1996,
+        "info": ["Za film \"Oaza\" otrzymał nagrodę:", "Nagroda jury międzynarodowego festiwalu filmów ekologicznych (Freiburg)"]
+      }, {
+        "year": 1998,
+        "info": ["Za film \"Polskie szczęście\" otrzymał nagrody:", "nagroda \"Ostankino\" za najlepszy film telewizyjny i nagroda na międzynarodowym festiwalu filmowym w Jekaterynburgu", "\"Golden Gate Award\" (San Francisco)"]
+      }, {
+        "year": 1998,
+        "info": ["Za film \"Zwyczajny prezydent\" otrzymał nagrody:", "Nagroda imienia Sacharowa rosyjskiego związku pisarzy \"Kwiecień\" (Moskwa)", "\"Film award Świata\" Berlin international film festival", "Grand prix Human Rights Watch (Nowy Jork)", "\"Golden Gate Award\" (San Francisco)"]
+      }, {
+        "year": 2004,
+        "info": ["Za film \"Kaukaskie więźniowie\" otrzymał nagrody:", "Grand prix Światowej organizacji przeciwko torturom — międzynarodowy festiwal filmów dokumentalnych w Genewie", "Złota nagroda międzynarodowego festiwalu filmowego w Belgradzie"]
+      }, {
+        "year": 2016,
+        "info": ["Wziął udział w парламенских wyborach na Białorusi"]
+      }],
+      "filmography": [{
+        "year": 1985,
+        "titleMovie": "Ta cicha życie w Głębokim (film dokumentalny)"
+      }, {
+        "year": 1986,
+        "titleMovie": "Powrót do Chatyń (film, spektakl)"
+      }, {
+        "year": 1986,
+        "titleMovie": "Spójrz na swój dom (film dokumentalny)"
+      }, {
+        "year": 1987,
+        "titleMovie": "Uparty człowiek (film dokumentalny)"
+      }, {
+        "year": 1987,
+        "titleMovie": "Tutaj był Kryłowa (film dokumentalny)"
+      }, {
+        "year": 1987,
+        "titleMovie": "Poborowi (film dokumentalny)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988 — w Podróży (film dokumentalny)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988 — Mistrza i czeladnika (film dokumentalny)"
+      }, {
+        "year": 1988,
+        "titleMovie": "1988 — Formuła przyspieszenia (film dokumentalny)"
+      }, {
+        "year": 1989,
+        "titleMovie": "1989 — powództwo wzajemne (film dokumentalny)"
+      }, {
+        "year": 1989,
+        "titleMovie": "W niebo na kole (film dokumentalny)"
+      }, {
+        "year": 1989,
+        "titleMovie": "Kto dziś brakuje"
+      }, {
+        "year": 1990,
+        "titleMovie": "Pośredni osób"
+      }, {
+        "year": 1990,
+        "titleMovie": "Magistrala (film dokumentalny)"
+      }, {
+        "year": 1991,
+        "titleMovie": "Pomarańczowe kamizelki (film dokumentalny)"
+      }, {
+        "year": 1992,
+        "titleMovie": "Rosyjskie szczęście (film dokumentalny)"
+      }, {
+        "year": 1993,
+        "titleMovie": "Pasja Marianne (film dokumentalny)"
+      }, {
+        "year": 1994,
+        "titleMovie": "Chleb Izraela (film dokumentalny)"
+      }, {
+        "year": 1996,
+        "titleMovie": "Oaza (film dokumentalny)"
+      }, {
+        "year": 1996,
+        "titleMovie": "Zwyczajny prezydent (film dokumentalny)"
+      }, {
+        "year": 1997,
+        "titleMovie": "Echo ciszy (film dokumentalny)"
+      }, {
+        "year": 1998,
+        "titleMovie": "Czas Zhou Эньлая (film dokumentalny)"
+      }, {
+        "year": 2000,
+        "titleMovie": "Bogowie Sierp i Młot (film dokumentalny)"
+      }, {
+        "year": 2002,
+        "titleMovie": "Dożyć do miłości (film dokumentalny)"
+      }, {
+        "year": 2002,
+        "titleMovie": "Kaukaskie więźniowie (film dokumentalny)"
+      }, {
+        "year": 2003,
+        "titleMovie": "Święty doktor"
+      }, {
+        "year": 2003,
+        "titleMovie": "Słoneczny clown (film dokumentalny)"
+      }, {
+        "year": 2007,
+        "titleMovie": "Plac Kalinowskiego (белор. Плошча, film dokumentalny)"
+      }, {
+        "year": 2007,
+        "titleMovie": "Do przodu do przeszłości"
+      }, {
+        "year": 2008,
+        "titleMovie": "W poszukiwaniu идиша (dokumentalny, wspólnie z Aleksandrem Городницким)"
+      }, {
+        "year": 2010,
+        "titleMovie": "Lobotomii (film dokumentalny)"
+      }, {
+        "year": 2011,
+        "titleMovie": "Proste wybory (film dokumentalny)"
+      }, {
+        "year": 2018,
+        "titleMovie": "Ten szalony, szalony, szalony \"rosyjski świat\" (film dokumentalny)"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 46.4737201,
+          "lng": 30.6891207
+        },
+        "markers": [{
+          "lat": 46.4737201,
+          "lng": 30.6891207,
+          "message": "Urodził się"
+        }, {
+          "lat": 53.9128096,
+          "lng": 27.5660955
+        }]
+      },
+      "youtubeVideoId": "6kZXMx0fywQ"
+    },
+    "author2": {
+      "about": {
+        "name": "Władimir Władimirowicz Корш-Sablin",
+        "briefInfo": "białoruski radziecki reżyser filmowy, aktor kina. Jeden z założycieli białoruskiego kina.",
+        "birthPlace": "Moskwa",
+        "workPlaces": ["Mińsk", "Moskwa"],
+        "mainPhotoUrl": "https://static.etvnet.com/shared/persons/person/000/004/093/korsh-sablin.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/CHZ6CtN/1.jpg",
+        "alt": "Kadr z filmu Ogniste latach 1939"
+      }, {
+        "src": "https://i.ibb.co/ZWkSLxw/2.jpg",
+        "alt": "Kadr z filmu Ogniste latach 1939"
+      }, {
+        "src": "https://i.ibb.co/gJtrxwN/3.jpg",
+        "alt": "Władimir Władimirowicz Корш-Sablin"
+      }, {
+        "src": "https://i.ibb.co/r0Zytns/4.jpg",
+        "alt": "Kadr z filmu W ogniu urodzona w 1929 / Born in Flames"
+      }, {
+        "src": "https://i.ibb.co/swTx9zs/5.jpg",
+        "alt": "Kadr z filmu Córka Ojczyzny 1937 / The Daughter of Motherland"
+      }, {
+        "src": "https://i.ibb.co/B2q6BQc/6.jpg",
+        "alt": "Kadr z filmu Poszukiwacze szczęścia 1936 / Seekers of Happiness"
+      }],
+      "timeLine": [{
+        "year": 1900,
+        "info": ["Urodził się 16(29) marca w Moskwie"]
+      }, {
+        "year": 1917,
+        "info": ["Zakończenie szkoły teatralnej", "Początek działalności twórczej jako aktor w teatrze swojego dziadka, matki, Fedor Adamowicza Корша — Teatrze Корша (według rodzinnej legendy, święty, pod wrażeniem sukcesów wnuka, pozwolił mu połączyć oba nazwiska).", "Uczestnik wojny Domowej."]
+      }, {
+        "year": 1923,
+        "info": ["Pierwsze kroki w filmie."]
+      }, {
+        "year": 1925,
+        "info": ["asystent, asystent reżysera i aktor w programie \"Госкино\" (\"Совкино\") w Moskwie"]
+      }, {
+        "year": 1926,
+        "info": ["Był aktorem i reżyserem (z 1929 roku) studia filmowego \"Radziecka Białoruś\" specjalnego sterowania Белгоскино\" (później \"Białoruśfilm\"); kręcił komedie, filmy dramaty, filmy biograficzne."]
+      }, {
+        "year": "1945-1960, 1969—1974",
+        "info": ["Корш-Sablin był dyrektorem artystycznym studia filmowego \"Białoruśfilm\"."]
+      }, {
+        "year": 1950,
+        "info": ["Laureat nagrody Stalinowskiej nagrody trzeciego stopnia — za film \"Constantine Bariery\" (1949)"]
+      }, {
+        "year": 1957,
+        "info": ["Przewodniczący Оргбюро Europejskiej pracowników kinematografii Białoruskiej SRR."]
+      }, {
+        "year": "1962-1974",
+        "info": ["Pierwszy sekretarz Związku filmowców ZSRR.", "Członek Związku filmowców ZSRR."]
+      }, {
+        "year": 1969,
+        "info": ["Otrzymał tytuł artysty ludowego ZSRR"]
+      }, {
+        "year": 1974,
+        "info": ["6 lipca 1974 Władimir Władimirowicz Корш-Sablin zmarł. Pochowany w Mińsku na Wschodnim cmentarz."]
+      }],
+      "filmography": [{
+        "year": 1930,
+        "titleMovie": "Narodzona w ogniu"
+      }, {
+        "year": 1933,
+        "titleMovie": "Pierwszy pluton"
+      }, {
+        "year": 1936,
+        "titleMovie": "Poszukiwacze szczęścia"
+      }, {
+        "year": 1939,
+        "titleMovie": "Ogniste latach"
+      }, {
+        "year": 1940,
+        "titleMovie": "Moja miłość"
+      }, {
+        "year": 1949,
+        "titleMovie": "Konstanty Bariery (wspólnie z A. Файнциммером)"
+      }, {
+        "year": 1953,
+        "titleMovie": "Śpiewają skowronki (wspólnie z N. Санниковым)"
+      }, {
+        "year": 1955,
+        "titleMovie": "Kto się śmieje ostatni"
+      }, {
+        "year": 1958,
+        "titleMovie": "Czerwone liście"
+      }, {
+        "year": 1960,
+        "titleMovie": "Pierwsze testy "
+      }, {
+        "year": 1967,
+        "titleMovie": "Zapamiętamy ten dzień"
+      }, {
+        "year": 1964,
+        "titleMovie": "Moskwa - Genua (wspólnie z A. Спешневым i P. Армандом)"
+      }, {
+        "year": 1971,
+        "titleMovie": "Upadek imperium"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 55.5807481,
+          "lng": 27.5560955
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 55.5807481,
+          "lng": 36.8251315,
+          "message": "Urodził się"
+        }]
+      },
+      "youtubeVideoId": "k5YDsIC_nHY"
+    },
+    "author3": {
+      "about": {
+        "name": "Wiktor Szedłem Za Desk",
+        "briefInfo": "białoruski radziecki reżyser filmowy, scenarzysta i pedagog.",
+        "birthPlace": "Mohylew",
+        "workPlaces": ["Mińsk"],
+        "mainPhotoUrl": "http://m.kino-teatr.ru/acter/foto/sov/29477.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/TMMRzdD/1.jpg",
+        "alt": "Wiktor Szedłem Za Desk"
+      }, {
+        "src": "https://i.ibb.co/gvBPzsf/2.jpg",
+        "alt": "Wiktor Szedłem Za Desk"
+      }, {
+        "src": "https://i.ibb.co/51Zzgj3/3.jpg",
+        "alt": "Na planie filmu \"Punkt odniesienia\". Z operatorem Jurijem Марухиным."
+      }, {
+        "src": "https://i.ibb.co/42S3FDR/4.jpg",
+        "alt": "Na planie filmu \"Przez cmentarz\"."
+      }, {
+        "src": "https://i.ibb.co/FHt7CGX/5.jpg",
+        "alt": "Na planie filmu \"pochodzę z dzieciństwa\"."
+      }, {
+        "src": "https://i.ibb.co/P6q2fbB/6.jpg",
+        "alt": "Białoruskie klasyki. Wiktor informacji Turystycznej i Aleś Adamowicz."
+      }, {
+        "src": "https://i.ibb.co/NnYWZyk/7.jpg",
+        "alt": "Na planie filmu \"Ludzie na bagnie\"."
+      }],
+      "timeLine": [{
+        "year": 1936,
+        "info": ["Wiktor informacji Turystycznej urodził się w Mohylewie (według innych źródeł — w miejscowości Bryle Mohylewskiego dzielnicy)."]
+      }, {
+        "year": 1959,
+        "info": ["reżyser programie \"Białoruśfilm\" (Mińsk).", "Autor wielu filmów dokumentalnych i scen w киножурнале \"Radziecka Białoruś\"."]
+      }, {
+        "year": 1961,
+        "info": ["Ukończył wydział reżyserski WGIK(warsztat A. P. Grzegorz i M. E. Чиаурели)."]
+      }, {
+        "year": "1976—1981",
+        "info": ["1-szy sekretarz stowarzyszenia filmowców Białoruskiej SRR.", "Członek Światowej akademii słowiańskiego sztuki."]
+      }, {
+        "year": 1975,
+        "info": ["Zasłużony działacz sztuki Białoruskiej SRR"]
+      }, {
+        "year": 1984,
+        "info": ["Za film \"Ludzie na bagnie\" został laureatem nagrody Państwowej BSRR"]
+      }, {
+        "year": 1986,
+        "info": ["Artysta ludowy ZSRR"]
+      }, {
+        "year": "1989—1996",
+        "info": ["Prowadził reżyserię warsztatu w Białoruskiej akademii sztuk pięknych (profesor)."]
+      }, {
+        "year": 1994,
+        "info": ["W 1994 roku film \"Przez cmentarz\"(1965), stał się jednym ze stu najlepszych filmów o wojnie zdaniem UNESCO."]
+      }, {
+        "year": 1995,
+        "info": ["Desk został włączony przez UNESCO w liczbie 50 filmowców świata, z których składał się Honorowy komitet obchodów 100-lecia kinematografii."]
+      }, {
+        "year": 1996,
+        "info": ["Wiktor informacji Turystycznej zmarł, pochowany w Mińsku na Wschodnim cmentarz."]
+      }],
+      "filmography": [{
+        "year": 1965,
+        "titleMovie": "Przez cmentarz"
+      }, {
+        "year": 1966,
+        "titleMovie": "Pochodzę z dzieciństwa"
+      }, {
+        "year": 1967,
+        "titleMovie": "Wojna pod dachami"
+      }, {
+        "year": 1981,
+        "titleMovie": "Lasy kronika"
+      }, {
+        "year": 1981,
+        "titleMovie": "Ludzie na bagnach"
+      }, {
+        "year": 1982,
+        "titleMovie": "Oddech burzy"
+      }, {
+        "year": 1994,
+        "titleMovie": "Szlachcic Завальня, lub Białoruś w fantastycznych opowiadaniach"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 53.8834808,
+          "lng": 30.2114948
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 53.8834808,
+          "lng": 30.2114948,
+          "message": "Urodził się"
+        }]
+      },
+      "youtubeVideoId": "2juET6V3YpM"
+    },
+    "author4": {
+      "about": {
+        "name": "Michaił Nikołajewicz Пташук",
+        "briefInfo": "radziecki i białoruski reżyser. ",
+        "birthPlace": "Федюки",
+        "workPlaces": ["Mińsk", "Moskwa", "Kazań"],
+        "mainPhotoUrl": "https://upload.wikimedia.org/wikipedia/ru/f/f7/M_Ptashuk.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/4YTnJD3/1.jpg",
+        "alt": "Artysta ludowy republiki reżyser Michał Пташук na planie. Stycznia 1993 roku"
+      }, {
+        "src": "https://i.ibb.co/fnG1X59/2.jpg",
+        "alt": "Studio Filmowe Białoruśfilm. Reżyser Michał Пташук (w środku) na planie filmu Znak nieszczęścia w powieści Vasyla Bykow. Stycznia 1985 roku"
+      }, {
+        "src": "https://i.ibb.co/dLZxYBm/3.jpg",
+        "alt": "Michał Пташук podczas kręcenia filmu w 1999 roku"
+      }, {
+        "src": "https://i.ibb.co/Srcmh8y/4.jpg",
+        "alt": "Пташук na premierze filmu \" W sierpniu 44.'"
+      }, {
+        "src": "https://i.ibb.co/phHFb5b/5.jpg",
+        "alt": "Пташук z żoną i córką"
+      }, {
+        "src": "https://i.ibb.co/wrKFHdz/6.jpg",
+        "alt": "Operator W. Kalisz i reżyser Michał Пташук podczas kręcenia filmu \"Wezmę twój ból\"."
+      }, {
+        "src": "https://i.ibb.co/3ykv7Kr/7.jpg",
+        "alt": "Aktor Jewgienij Mironow, reżyser Michał Пташук (w środku) i polska aktorka Beata Tyszkiewicz podczas kręcenia filmu \"W sierpniu 44 roku...\". 1995 r"
+      }],
+      "timeLine": [{
+        "year": 1943,
+        "info": ["Michał urodził się 28 stycznia 1943 r. w miejscowości Федюки, Ляховичский powiat, obwód Brzeski."]
+      }, {
+        "year": 1967,
+        "info": ["Ukończył w 1967 roku Legia dramat szkole imienia B. W. Szczukina (warsztat B. E. Захавы)."]
+      }, {
+        "year": 1974,
+        "info": ["Pracował na \"Беларусьфильме\"", "Pracował jako reżyser w teatrach w Moskwie i Kazaniu."]
+      }, {
+        "year": 1982,
+        "info": ["Zasłużony działacz sztuki BSRR."]
+      }, {
+        "year": 1989,
+        "info": ["Пташук stworzył niezależną Białoruską studio w Związku filmowców i został jej dyrektorem artystycznym.", "Jego prace zdobyły nagrody na międzynarodowych festiwalach filmowych w Białorusi, Hiszpanii, Rosji, Czech, Szwecji i Jugosławii."]
+      }, {
+        "year": 1990,
+        "info": ["Artysta ludowy ZSRR."]
+      }, {
+        "year": 2002,
+        "info": ["Пташук zginął w wypadku samochodowym w Moskwie.", "Wczoraj przyleciał z Hollywood do Moskwy na wręczenie nagród filmowych \"Nicka\". Jego obraz \"W sierpniu 44 roku...\" trafiła we wszystkie podstawowe nominacje do nagrody filmowej.", "Pochowany w Mińsku na Wschodnim cmentarz."]
+      }],
+      "filmography": [{
+        "year": 1973,
+        "titleMovie": "O Витю, o Maszy i piechoty morskiej"
+      }, {
+        "year": 1975,
+        "titleMovie": "Leśne huśtawka"
+      }, {
+        "year": 1976,
+        "titleMovie": "Czas wybrało nas"
+      }, {
+        "year": 1980,
+        "titleMovie": "Wezmę twój ból"
+      }, {
+        "year": 1984,
+        "titleMovie": "Czarny zamek Olszański"
+      }, {
+        "year": 1986,
+        "titleMovie": "Znak nieszczęścia"
+      }, {
+        "year": 1989,
+        "titleMovie": "Nasz pociąg pancerny"
+      }, {
+        "year": 1992,
+        "titleMovie": "Spółdzielnia \"biura politycznego\", lub Będzie długie pożegnanie"
+      }, {
+        "year": 1995,
+        "titleMovie": "Gra wyobraźni"
+      }, {
+        "year": 2001,
+        "titleMovie": "W sierpniu 44 roku..."
+      }, {
+        "year": 2003,
+        "titleMovie": "W czerwcu 41 roku /The Burning Land"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 53.0348791,
+          "lng": 26.0923454
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 53.0348791,
+          "lng": 26.0923454,
+          "message": "Urodził się"
+        }, {
+          "lat": 55.5807481,
+          "lng": 36.8251315
+        }, {
+          "lat": 55.7954219,
+          "lng": 48.9332213
+        }]
+      },
+      "youtubeVideoId": "QM6Z8_yheZM"
+    },
+    "author5": {
+      "about": {
+        "name": "Jurij Wiktorowicz Тарич",
+        "briefInfo": "radziecki reżyser filmowy i scenarzysta.",
+        "birthPlace": "Połock",
+        "workPlaces": ["Mińsk", "Moskwa", "Tobolska", "Czita", "Warszawa", "Wilno", "Leningrad", "Sankt Petersburg"],
+        "mainPhotoUrl": "https://upload.wikimedia.org/wikipedia/ru/9/98/Yury_tarich.jpg"
+      },
+      "photo": [{
+        "src": "https://i.ibb.co/Tww5jw9/1.jpg",
+        "alt": "Jurij Wiktorowicz Тарич"
+      }, {
+        "src": "https://i.ibb.co/dB5KJwJ/2.jpg",
+        "alt": "Kadr z filmu Białoruskie powieści 1943"
+      }, {
+        "src": "https://i.ibb.co/4YTJzRY/3.jpg",
+        "alt": "Kadr z filmu Białoruskie powieści 1943"
+      }, {
+        "src": "https://i.ibb.co/6nhmjyW/4.jpg",
+        "alt": "Kadr z filmu Mordercy wychodzą na drogę 1942"
+      }, {
+        "src": "https://i.ibb.co/LJKLJ2D/5.jpg",
+        "alt": "Kadr z filmu Mordercy wychodzą na drogę 1942"
+      }, {
+        "src": "https://i.ibb.co/8Bxvv1r/6.jpg",
+        "alt": "Kadr z filmu Leśna historia 1926"
+      }],
+      "timeLine": [{
+        "year": 1885,
+        "info": ["Urodził się Jurij 12(24) stycznia w Połock"]
+      }, {
+        "year": "1903—1905",
+        "info": ["Studiował na wydziale prawa uniwersytetu Moskiewskiego"]
+      }, {
+        "year": 1905,
+        "info": ["Za udział w rewolucyjnych волнениях w Warszawie został zesłany w Тобольскую prowincji."]
+      }, {
+        "year": 1907,
+        "info": ["Był aktorem w Тобольске, a następnie Czyta, Lipieck, Tambow, Wilnie."]
+      }, {
+        "year": 1918,
+        "info": ["Aktor i reżyser wielu wiodących teatrów w Moskwie (pracował w tym z W. Мейерхольдом)."]
+      }, {
+        "year": 1920,
+        "info": ["Staje się jednym z przywódców Курсантского teatru na Kremlu."]
+      }, {
+        "year": 1923,
+        "info": ["Praca w kinie: najpierw киносценарист, a następnie i reżyser."]
+      }, {
+        "year": "середина 1920-х",
+        "info": ["Pracował w Leningradzie, w tym znajdującego się tam studio \"Белгоскино\"; jeden z twórców kinematografii Białorusi."]
+      }, {
+        "year": 1926,
+        "info": ["Postawił pierwszy białoruski film fabularny \"Leśna historia\" (według powieści M. Чарота)."]
+      }, {
+        "year": 1935,
+        "info": ["Zasłużony działacz sztuki RFSRR"]
+      }, {
+        "year": "1943—1945",
+        "info": ["Na czele programu movie maker \"Монголкино\". Później pracował na киностудиях \"Союздетфильм\", \"Белорусьфильм\""]
+      }],
+      "filmography": [{
+        "year": 1925,
+        "titleMovie": "Błąd"
+      }, {
+        "year": 1925,
+        "titleMovie": "Pierwsze światła"
+      }, {
+        "year": 1926,
+        "titleMovie": "Skrzydła więzienie out"
+      }, {
+        "year": 1926,
+        "titleMovie": "Bułat-Батыр"
+      }, {
+        "year": 1926,
+        "titleMovie": "Leśna historia"
+      }, {
+        "year": 1928,
+        "titleMovie": "Swoje i cudze"
+      }, {
+        "year": 1928,
+        "titleMovie": "Huba"
+      }, {
+        "year": 1928,
+        "titleMovie": "Капитанская córka"
+      }, {
+        "year": 1929,
+        "titleMovie": "Do jutra"
+      }, {
+        "year": 1930,
+        "titleMovie": "Nienawiść (druga nazwa — \"Czarna krew\")"
+      }, {
+        "year": 1930,
+        "titleMovie": "O dwóch fabrykach"
+      }, {
+        "year": 1930,
+        "titleMovie": "Осинстрой"
+      }, {
+        "year": 1930,
+        "titleMovie": "Przewrót"
+      }, {
+        "year": 1931,
+        "titleMovie": "Poemat nazwy wyzwolenia"
+      }, {
+        "year": 1932,
+        "titleMovie": "Uciekinierzy"
+      }, {
+        "year": 1932,
+        "titleMovie": "Wysokość 88,5"
+      }, {
+        "year": 1935,
+        "titleMovie": "Droga statku"
+      }, {
+        "year": 1938,
+        "titleMovie": "Jedenasty lipca"
+      }, {
+        "year": 1940,
+        "titleMovie": "Niebo"
+      }, {
+        "year": 1942,
+        "titleMovie": "Białoruskie historie"
+      }, {
+        "year": 1942,
+        "titleMovie": "Mordercy wychodzą na ulicę"
+      }, {
+        "year": 1945,
+        "titleMovie": "Stepowi witezie"
+      }],
+      "geolocation": {
+        "center": {
+          "lat": 55.5033252,
+          "lng": 28.7116512
+        },
+        "markers": [{
+          "lat": 53.9028096,
+          "lng": 27.5560955
+        }, {
+          "lat": 55.5033252,
+          "lng": 28.7116512,
+          "message": "Urodził się"
+        }, {
+          "lat": 59.9390095,
+          "lng": 29.5303107
+        }, {
+          "lat": 54.7000902,
+          "lng": 25.1128503
+        }, {
+          "lat": 52.6021103,
+          "lng": 39.4855773
+        }]
+      },
+      "youtubeVideoId": "xePLlli6Me0"
+    }
+  }
+}

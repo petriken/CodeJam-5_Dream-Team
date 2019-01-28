@@ -12,47 +12,10 @@ import {
   i18nReducer,
 } from 'react-redux-i18n';
 
+import translations from '../locales';
+
 const translationsObject = {
-  en: {
-    pages: {
-      home: 'Home',
-      producers: 'Producers',
-    },
-    application: {
-      title: 'Hello World',
-      text: 'This is a simple message',
-    },
-    authors: {
-      author1: {
-        firstName: 'Ivan',
-        lastName: 'Ivanov',
-      },
-      author2: {
-        firstName: 'Petr',
-        lastName: 'Petrov',
-      },
-    },
-  },
-  ru: {
-    application: {
-      title: 'Привет мир',
-      text: 'Это простое сообщение',
-    },
-    pages: {
-      home: 'Главная',
-      producers: 'Режиссеры',
-    },
-    authors: {
-      author1: {
-        firstName: 'Иван',
-        lastName: 'Иванов',
-      },
-      author2: {
-        firstName: 'Петр',
-        lastName: 'Петров',
-      },
-    },
-  },
+  ...translations,
 };
 
 let composeEnhancers = null;
