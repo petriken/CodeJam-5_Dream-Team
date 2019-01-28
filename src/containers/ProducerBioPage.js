@@ -21,6 +21,8 @@ class ProducerBioPage extends Component {
       match,
     } = this.props;
     const authorId = match.params.id;
+    const author = translations[authorId];
+    if (!author) return (<div>Не играйся с url! :)</div>);
     const {
       about: {
         mainPhotoUrl,
