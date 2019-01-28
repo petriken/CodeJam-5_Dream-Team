@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Translate } from 'react-redux-i18n';
+import { Translate, I18n } from 'react-redux-i18n';
 import PropTypes from 'prop-types';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import {
+  Col,
+  Row,
+  ListGroup,
+  ListGroupItem,
+} from 'reactstrap';
+
 import PhotoGallery from '../components/PhotoGallery';
 import GeoWidget from '../components/GeoWidget';
 import VideoOverlay from '../components/VideoOverlay';
@@ -14,21 +21,46 @@ class ProducerBioPage extends Component {
       match,
     } = this.props;
     const authorId = match.params.id;
+    const {
+      about: {
+        mainPhotoUrl,
+        name,
+        briefInfo,
+        birthPlace,
+      },
+      timeLine,
+      filmography,
+      photo,
+      geolocation,
+      youtubeVideoId,
+    } = translations[authorId];
 
     return (
-      <div style={{ display: 'flex', flexDirection: 'column', fontFamily: 'Comic Sans MS' }}>
-        <section style={{ display: 'flex', padding: '6%' }}>
-          <img src={translations[authorId].about.mainPhotoUrl} style={{ width: '35%', height: '35%' }} alt=""/>
-          <ul style={{ listStyleType: 'square', marginTop: '5%', fontSize: '2vw' }}>
-            <li>{translations[authorId].about.name}</li>
-            <li>{translations[authorId].about.briefInfo}</li>
-            <li><Translate value="intro.birthPlace" />: {translations[authorId].about.birthPlace}</li>
-          </ul>
-        </section>
+      <Row className="mb-5">
+        <Col xs="12">
+          <Row>
+            <Col xs="12" md="4">
+              <img src={mainPhotoUrl} style={{ width: '100%', height: '350px', objectFit: 'cover' }} alt=""/>
+            </Col>
+            <Col xs="12" md="8">
+              <h1 className="mb-3">{name}</h1>
+              <ListGroup>
+                <ListGroupItem>{briefInfo}</ListGroupItem>
+                <ListGroupItem>
+                  <Translate tag="b" value="intro.birthPlace" />: {birthPlace}
+                </ListGroupItem>
+                <ListGroupItem>
+                  <VideoOverlay id={youtubeVideoId} buttonTitle={I18n.t('intro.video')}/>
+                </ListGroupItem>
+              </ListGroup>
+            </Col>
+          </Row>
+        </Col>
 
-        <section>
+        <Col xs="6">
           <Timeline lineColor={'#cbcbcb'}>
-            {(translations[authorId]).timeLine.map((authorItem, index) => (
+            {
+              timeLine.map((authorItem, index) => (
                 <TimelineItem
                   key={index}
                   dateText={authorItem.year.toString()}
@@ -37,41 +69,36 @@ class ProducerBioPage extends Component {
                   {authorItem.info.map((Item, ind) => (
                       <p key={ind}>{Item}</p>))}
                 </TimelineItem>
-            ))}
+              ))
+            }
           </Timeline>
-        </section>
+        </Col>
 
-        <section className="film-list-container" style={{ paddingLeft: '5%' }}>
-          <span style={{ fontSize: '2vw' }}>
-            <Translate value="intro.filmography" />
-          </span>
+        <Col xs="6">
+          <Translate tag="h2" value="intro.filmography" />
           <ul style={{ listStyleType: 'none' }}>
-          {(translations[authorId]).filmography.map((authorItem, index) => (
-              <li key={index}>{authorItem.year}: {authorItem.titleMovie}</li>
-          ))}
+          {
+            filmography.map((authorItem, index) => (
+              <li key={index}><b>{authorItem.year}</b>: {authorItem.titleMovie}</li>
+            ))
+          }
           </ul>
-        </section>
+        </Col>
 
-        <section
-          style={{
-            padding: '0 10% 5% 10%', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center',
-          }}>
-          <span style={{ fontSize: '2vw' }}>
-            <Translate value="intro.gallery" />
-          </span>
-          <PhotoGallery items={ translations[authorId].photo } />
-        </section>
+        <Col xs="12">
+          <Translate tag="h2" value="intro.gallery" />
+          <Row>
+            <Col xs="12" md="6">
+              <PhotoGallery maxHeight="300px" items={ photo } />
+            </Col>
+            <Col xs="12" md="6">
+              <GeoWidget markers={ geolocation.markers }center={ geolocation.center }/>
+            </Col>
+          </Row>
 
-        <section style={{
-          width: '100%', display: 'flex', justifyContent: 'center', marginBottom: '5%',
-        }}>
-        <VideoOverlay id={translations[authorId].youtubeVideoId} buttonTitle=<Translate value="intro.video" />/>
-        </section>
 
-        <GeoWidget markers={ translations[authorId].geolocation.markers }
-                   center={ translations[authorId].geolocation.center }/>
-
-      </div>
+        </Col>
+      </Row>
 
     );
   }
