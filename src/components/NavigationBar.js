@@ -34,6 +34,7 @@ class NavigationBar extends Component {
   render() {
     const {
       routes,
+      languages,
     } = this.props;
 
     return (
@@ -62,8 +63,11 @@ class NavigationBar extends Component {
             }
               <NavItem>
               <Input type="select" defaultValue='en' onChange={this.handleChange}>
-                <option>ru</option>
-                <option>en</option>
+                {
+                  languages.map(lang => (
+                    <option key={lang}>{lang}</option>
+                  ))
+                }
               </Input>
               </NavItem>
             </Nav>
@@ -74,9 +78,14 @@ class NavigationBar extends Component {
   }
 }
 
+NavigationBar.defaultProps = {
+  lagnuages: [],
+};
+
 NavigationBar.propTypes = {
   dispatch: PropTypes.func.isRequired,
   routes: PropTypes.array.isRequired,
+  languages: PropTypes.array,
 };
 
 export default NavigationBar;

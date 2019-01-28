@@ -1,80 +1,79 @@
-import React, { Fragment, Component } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { Col, Row } from 'reactstrap';
+import { I18n } from 'react-redux-i18n';
 
-import {
-  Col,
-  Row,
-  CardDeck,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Button,
-} from 'reactstrap';
 import ProducerCard from '../components/ProducerCard';
+import SearchProducers from '../components/SearchProducers';
 
-class SearchProducers extends Component {
-  constructor() {
-    super();
-    this.state = { value: '' };
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({ value: event.target.value });
-  }
-
-  render() {
-    return <Form>
-
-        <FormGroup>
-          <Label for="SearchProducer">
-            Введите имя или город в котором родился режиссер:
-          </Label>
-          <Input value={this.state.value} onChange={this.handleChange} type="search" name="search" id="SearchProducer" placeholder="Producer's name or birth place " />
-        </FormGroup>
-        <Button style={{ margin: '10px 0' }
-          }
-          >
-          Search
-        </Button>
-      </Form>;
-  }
-}
+import directorFilter from '../utils/directorsFilter';
 
 class ProducersPage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      searchValue: '',
+    };
+
+    this.handleSearch = this.handleSearch.bind(this);
+  }
+
+  handleSearch(searchValue) {
+    this.setState({ searchValue });
+  }
+
   render() {
-    const { translations } = this.props;
+    const {
+      translations: {
+        authors: directors,
+      },
+    } = this.props;
 
     return (
-      <Fragment>
+      <div>
         <Row>
           <Col xs="12" sm="8" lg="6">
-            <SearchProducers />
+            <SearchProducers onClickSearch={this.handleSearch} />
           </Col>
         </Row>
-        <CardDeck>
-          {Object.entries(translations.authors).map((item) => {
-            const [key, value] = item;
-            return (
-              <Col xs="12" sm="6" lg="4" key={key} style={{ marginTop: '5%' }}>
-                <ProducerCard
-                  tag={Link}
-                  to={`/producers/${key}`}
-                  name={value.about.name}
-                  briefInfo={value.about.briefInfo}
-                  birthPlace={value.about.birthPlace}
-                  birthPlaceTitle="Место рождения:"
-                  producerPhotoUrl={value.about.mainPhotoUrl}
-                  buttonName="Перейти на страницу режиссера"
-                />
-              </Col>
-            );
-          })}
-        </CardDeck>
-      </Fragment>
+        <Row>
+          {
+            Object.entries(
+              directorFilter(directors, this.state.searchValue),
+            ).map((director) => {
+              const [directorKey, directorData] = director;
+              const { about } = directorData;
+              if (!about) return '';
+
+              const {
+                name,
+                briefInfo,
+                birthPlace,
+                mainPhotoUrl,
+              } = about;
+              if (!name) return '';
+
+              return (
+                <Col xs="12" sm="6" lg="4" key={directorKey} style={{ marginTop: '5%' }}>
+                  <ProducerCard
+                    tag={Link}
+                    to={`/producers/${directorKey}`}
+                    name={name}
+                    briefInfo={briefInfo}
+                    birthPlace={birthPlace}
+                    birthPlaceTitle={I18n.t('directorsPage.birthPlaceTitle')}
+                    producerPhotoUrl={mainPhotoUrl}
+                    buttonName={I18n.t('directorsPage.buttonName')}
+                  />
+                </Col>
+              );
+            })
+          }
+        </Row>
+      </div>
     );
   }
 }
