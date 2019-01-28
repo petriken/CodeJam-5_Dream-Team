@@ -10,6 +10,10 @@
     "gallery": "Galeria zdjęć",
     "video": "Zobacz wideo"
   },
+  "pages": {
+    "home": "Strona główna",
+    "producers": "Reżyserzy"
+  },
   "directorsPage": {
     "search": {
       "label": "Wpisz nazwę lub miasto, w którym urodził się reżyser",

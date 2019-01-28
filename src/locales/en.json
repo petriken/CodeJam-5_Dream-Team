@@ -10,6 +10,10 @@
     "gallery": "Photo gallery",
     "video": "Watch the video"
   },
+  "pages": {
+    "home": "Main",
+    "producers": "Directors"
+  },
   "directorsPage": {
     "search": {
       "label": "Enter the name or city where you were born filmmaker",

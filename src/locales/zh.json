@@ -10,6 +10,10 @@
     "gallery": "照相馆",
     "video": "观看视频"
   },
+  "pages": {
+    "home": "主",
+    "producers": "董事"
+  },
   "directorsPage": {
     "search": {
       "label": "输入的名称或城市，你在哪里出生的电影制片人",
