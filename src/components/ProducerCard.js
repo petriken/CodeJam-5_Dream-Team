@@ -19,8 +19,8 @@ const ProducerCard = ({
   birthPlace,
   birthPlaceTitle,
 }) => (
-  <div>
-    <Card style={{ margin: '0', height: '600px', position: 'relative' }}>
+  <div className="h-100">
+    <Card className="h-100">
       <CardImg
         top
         height="300px"
@@ -34,17 +34,16 @@ const ProducerCard = ({
           <b>{birthPlaceTitle}:&nbsp;</b>
           {birthPlace}
         </CardText>
-        <CardText style={{ height: '100px', overflow: 'hidden' }}>
+        <CardText style={{ maxHeight: '100px', overflow: 'hidden' }}>
           {briefInfo}
         </CardText>
+      </CardBody>
         <Button
           to={to}
           tag={Link}
-          style={{ position: 'absolute', bottom: '20px' }}
         >
           {buttonName}
         </Button>
-      </CardBody>
     </Card>
   </div>
 );
