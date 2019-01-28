@@ -6,7 +6,6 @@ import {
   Card,
   CardBody,
   CardImg,
-  CardText,
   CardLink,
   CardTitle,
   Jumbotron,
@@ -16,27 +15,47 @@ import {
   Button,
 } from 'reactstrap';
 import PropTypes from 'prop-types';
+import ProducerCard from '../components/ProducerCard';
+
 
 class HomePage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.randKey = HomePage.rand(this.props.translations.authors);
+  }
+
+  static rand(object) {
+    const keys = Object.keys(object);
+    const key = keys[Math.floor(keys.length * Math.random())];
+    return key;
+  }
+
   render() {
     const {
       translations,
     } = this.props;
 
+    const { randKey } = this;
+    const randCard = translations.authors[randKey];
+
     return (
       <div style={{ marginBottom: '20px' }}>
         <Row>
           <Col sm="8" md="6" lg="6">
-            <Jumbotron fluid style={{ backgroundColor: '#4fcac24d' }}>
+            <Jumbotron fluid style={{ backgroundColor: '#4fcac24d', height: '645px', textAlign: 'center' }}>
               <Container fluid>
                 <h1 className="display-6"><Translate value="intro.title" /></h1>
-                <p className="lead"><Translate value="intro.text" /></p>
+                <p className="lead" style={{ height: '100%' }}>
+                  <Translate value="intro.text" />
+                  <img width="90%" height="90%"
+                  src="https://www.wikihow.com/images/f/f7/Be-a-Film-Director-Step-16-Version-2.jpg"
+                  alt="Film director"/>
+                </p>
                 <p className="lead">
                   <Button
                     block
                     tag={Link}
-                    style={{ backgroundColor: '#007bff69' }}
-                    color="primary"
                     size="lg"
                     to="/producers"
                   >
@@ -50,23 +69,15 @@ class HomePage extends Component {
             <h2>
               <Translate value="intro.news"/>
             </h2>
-            <Card body>
-              <Row>
-                <Col sm="6" md="6">
-                  <img
-                    width="100%"
-                    src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=318"
-                    alt="Card cap"
-                  />
-                </Col>
-                <Col sm="6" md="6">
-                  <CardBody>
-                    <CardTitle>Card title</CardTitle>
-                    <CardText>Some quick example text to build on the card title.</CardText>
-                  </CardBody>
-                </Col>
-              </Row>
-            </Card>
+            <ProducerCard
+              to={`/producers/${randKey}`}
+              name={randCard.about.name}
+              briefInfo={randCard.about.briefInfo}
+              birthPlace={randCard.about.birthPlace}
+              birthPlaceTitle="Место рождения:"
+              producerPhotoUrl={randCard.about.mainPhotoUrl}
+              buttonName="Перейти на страницу режиссера"
+            />
           </Col>
           </Row>
           <h3 className="my-3">
@@ -80,7 +91,7 @@ class HomePage extends Component {
                 <Col
                   key={key}
                   className="mb-3"
-                  sm="6"
+                  sm="8"
                   md="6"
                   lg="4"
                 >
@@ -101,17 +112,33 @@ class HomePage extends Component {
                         {value.name}
                       </CardTitle>
                       <CardTitle>
-                        <span>Github:&nbsp;</span>
-                        <CardLink
-                          href={`https://github.com/${value.github}`}
-                          target="_blank"
-                        >
-                          {value.github}
-                        </CardLink>
+                      <Row>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <span>Github:&nbsp;</span>
+                          </Col>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <CardLink
+                            href={`https://github.com/${value.github}`}
+                            target="_blank"
+                            >
+                              {value.github}
+                            </CardLink>
+                          </Col>
+                      </Row>
                       </CardTitle>
                       <CardTitle>
-                        <span>Email:&nbsp;</span>
-                        <CardLink href={`mailto:${value.mail}`}>{value.mail}</CardLink>
+                        <Row>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <span>Email:&nbsp;</span>
+                          </Col>
+                          <Col style={{ flexBasis: 'auto' }}>
+                            <CardLink
+                              href={`mailto:${value.mail}`}
+                            >
+                              {value.mail}
+                            </CardLink>
+                          </Col>
+                        </Row>
                       </CardTitle>
                     </CardBody>
                   </Card>
