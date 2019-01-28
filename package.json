@@ -1,8 +1,8 @@
 {
+  "homepage": "http://petriken.github.io/CodeJam-5_Dream-Team",
   "name": "codejam-5_dream-team",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yana-bashtyk.github.io/portal-gh-pages",
   "dependencies": {
     "bootstrap": "^4.2.1",
     "history": "^4.7.2",
