@@ -19,19 +19,29 @@ import ProducerCard from '../components/ProducerCard';
 
 
 class HomePage extends Component {
+  constructor(props) {
+    super(props);
+
+    [this.randKey, this.randCard] = HomePage.rand(this.props.translations.authors);
+  }
+
+  static rand(object) {
+      const keys = Object.keys(object);
+      const key = keys[Math.floor(keys.length * Math.random())];
+      const values = object[key];
+      return [
+        key,
+        values,
+      ];
+    }  
+
   render() {
     const {
       translations,
     } = this.props;
 
-    function rand(object) {
-      const keys = Object.keys(object);
-      return object[keys[Math.floor(keys.length * Math.random())]];
-    }
-
-    const storeAuthors = translations.authors;
-    const randAuthor = rand(storeAuthors);
-    const randKey = Object.keys(storeAuthors).find(key => storeAuthors[key] === randAuthor);
+    const randKey = this.randKey;
+    const randCard = this.randCard;
 
     return (
       <div style={{ marginBottom: '20px' }}>
@@ -64,11 +74,11 @@ class HomePage extends Component {
             <ProducerCard
               tag={Link}
               to={`/producers/${randKey}`}
-              name={randAuthor.about.name}
-              briefInfo={randAuthor.about.briefInfo}
-              birthPlace={randAuthor.about.birthPlace}
+              name={randCard.about.name}
+              briefInfo={randCard.about.briefInfo}
+              birthPlace={randCard.about.birthPlace}
               birthPlaceTitle="Место рождения:"
-              producerPhotoUrl={randAuthor.about.mainPhotoUrl}
+              producerPhotoUrl={randCard.about.mainPhotoUrl}
               buttonName="Перейти на страницу режиссера"
             />
           </Col>
