@@ -65,7 +65,7 @@ class HomePage extends Component {
               </CardBody>
             </Card>
           </Col>
-          <Col sm="12" md="5" lg="4" style={{ maxHeight: '500px' }}>
+          <Col sm="12" md="5" lg="4">
             <h2>
               <Translate value="intro.news"/>
             </h2>
@@ -91,7 +91,7 @@ class HomePage extends Component {
                 <Col
                   key={key}
                   className="mb-3"
-                  sm="8"
+                  xs="12"
                   md="6"
                   lg="4"
                 >

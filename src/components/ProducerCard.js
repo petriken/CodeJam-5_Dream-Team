@@ -19,7 +19,7 @@ const ProducerCard = ({
   birthPlace,
   birthPlaceTitle,
 }) => (
-  <Card className="h-100">
+  <Card>
     <CardImg
       top
       height="300px"
