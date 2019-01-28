@@ -45,7 +45,7 @@ class ProducerBioPage extends Component {
           <span style={{ fontSize: '2vw' }}>
             <Translate value="intro.filmography" />
           </span>
-          <ul style={{ listStyleType: 'square' }}>
+          <ul style={{ listStyleType: 'none' }}>
           {(translations[authorId]).filmography.map((authorItem, index) => (
               <li key={index}>{authorItem.year}: {authorItem.titleMovie}</li>
           ))}
