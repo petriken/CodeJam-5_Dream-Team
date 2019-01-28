@@ -26,18 +26,18 @@ class HomePage extends Component {
   }
 
   static rand(object) {
-      const keys = Object.keys(object);
-      const key = keys[Math.floor(keys.length * Math.random())];
-      return key;
-    }  
+    const keys = Object.keys(object);
+    const key = keys[Math.floor(keys.length * Math.random())];
+    return key;
+  }
 
   render() {
     const {
       translations,
     } = this.props;
 
-    const randKey = this.randKey;
-    const randCard = this.props.translations.authors[this.randKey];
+    const { randKey } = this;
+    const randCard = translations.authors[randKey];
 
     return (
       <div style={{ marginBottom: '20px' }}>
@@ -48,7 +48,9 @@ class HomePage extends Component {
                 <h1 className="display-6"><Translate value="intro.title" /></h1>
                 <p className="lead" style={{ height: '100%' }}>
                   <Translate value="intro.text" />
-                  <img width="90%" height="90%" src="https://www.wikihow.com/images/f/f7/Be-a-Film-Director-Step-16-Version-2.jpg" alt="Film director"/>
+                  <img width="90%" height="90%"
+                  src="https://www.wikihow.com/images/f/f7/Be-a-Film-Director-Step-16-Version-2.jpg"
+                  alt="Film director"/>
                 </p>
                 <p className="lead">
                   <Button
@@ -72,7 +74,7 @@ class HomePage extends Component {
               name={randCard.about.name}
               briefInfo={randCard.about.briefInfo}
               birthPlace={randCard.about.birthPlace}
-              birthPlaceTitle="Место рождения:" 
+              birthPlaceTitle="Место рождения:"
               producerPhotoUrl={randCard.about.mainPhotoUrl}
               buttonName="Перейти на страницу режиссера"
             />
