@@ -29,9 +29,10 @@ const ProducerCard = ({
         alt={name}
       />
       <CardBody>
-        <CardTitle>{name}</CardTitle>
+        <CardTitle tag="h4">{name}</CardTitle>
         <CardText>
-          {birthPlaceTitle}: {birthPlace}
+          <b>{birthPlaceTitle}:&nbsp;</b>
+          {birthPlace}
         </CardText>
         <CardText style={{ height: '100px', overflow: 'hidden' }}>
           {briefInfo}
