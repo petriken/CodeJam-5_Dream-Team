@@ -1,5 +1,5 @@
 export default function SearchDirector(directors = {}, searchValue = '') {
-  const regExp = new RegExp(searchValue, 'g');
+  const regExp = new RegExp(searchValue.toLowerCase(), 'g');
 
   return Object.values(directors).filter((director) => {
     const {
