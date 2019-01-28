@@ -51,8 +51,8 @@
       "img": "https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/27973479_1736578996406233_261896360789868839_n.jpg?_nc_cat=107&_nc_ht=scontent-frx5-1.xx&oh=d49a9311ec8afaf37cb07a9ccec51f96&oe=5CB57C44"
     }
   },
-  "autors": {
-    "autor1": {
+  "authors": {
+    "author1": {
       "about": {
         "name": "Юрий Иосифович Хащеватский",
         "briefInfo": "белорусский и советский кинорежиссёр",
@@ -352,7 +352,7 @@
       },
       "youtubeVideoId": "6kZXMx0fywQ"
     },
-    "autor2": {
+    "author2": {
       "about": {
         "name": "Владимир Владимирович Корш-Саблин",
         "briefInfo": "белорусский советский кинорежиссёр, актёр кино. Один из основоположников белорусского кино.",
@@ -526,7 +526,7 @@
       },
       "youtubeVideoId": "k5YDsIC_nHY"
     },
-    "autor3": {
+    "author3": {
       "about": {
         "name": "Виктор Тимофеевич Туров",
         "briefInfo": "белорусский советский кинорежиссер, сценарист и педагог.",
@@ -679,7 +679,7 @@
       },
       "youtubeVideoId": "2juET6V3YpM"
     },
-    "autor4": {
+    "author4": {
       "about": {
         "name": "Михаил Николаевич Пташук",
         "briefInfo": "советский и белорусский кинорежиссёр. ",
@@ -834,7 +834,7 @@
       },
       "youtubeVideoId": "QM6Z8_yheZM"
     },
-    "autor5": {
+    "author5": {
       "about": {
         "name": "Юрий Викторович Тарич",
         "briefInfo": "советский кинорежиссёр и сценарист.",
