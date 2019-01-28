@@ -10,6 +10,10 @@
     "gallery": "Fotogalerie",
     "video": "Sehen Sie das Video"
   },
+  "pages": {
+    "home": "Die wichtigste",
+    "producers": "Regisseure"
+  },
   "directorsPage": {
     "search": {
       "label": "Geben Sie den Namen oder die Stadt, wo der Regisseur geboren",

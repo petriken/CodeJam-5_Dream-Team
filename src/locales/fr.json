@@ -10,6 +10,10 @@
     "gallery": "Galerie de photos",
     "video": "Voir la vidéo"
   },
+  "pages": {
+    "home": "La principale",
+    "producers": "Réalisateurs"
+  },
   "directorsPage": {
     "search": {
       "label": "Entrez le nom ou la ville où est né le réalisateur",

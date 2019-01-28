@@ -35,7 +35,7 @@ class ProducersPage extends Component {
     return (
       <div>
         <Row>
-          <Col xs="12" sm="8" lg="6">
+          <Col xs="12">
             <SearchProducers onClickSearch={this.handleSearch} />
           </Col>
         </Row>
@@ -57,7 +57,7 @@ class ProducersPage extends Component {
               if (!name) return '';
 
               return (
-                <Col xs="12" sm="6" lg="4" key={directorKey} style={{ marginTop: '5%' }}>
+                <Col xs="12" sm="6" md="6" lg="4" key={directorKey} className="my-4">
                   <ProducerCard
                     tag={Link}
                     to={`/producers/${directorKey}`}
